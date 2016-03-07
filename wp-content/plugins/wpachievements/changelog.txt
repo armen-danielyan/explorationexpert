@@ -1,0 +1,468 @@
+v7.30 - 2016-01-18
+  - New: Create Rank form is always displayed
+  - Tweak: A lot of CSS and JS improvements
+  - Tweak: Cleaned up "Latest Info" page and renamed it to "FAQ"
+  - Tweak: Merged Shortcodes page with FAQ page
+  - Tweak: Updated Facebook App creation tutorial
+  - Fixed: Settings page not displayed correctly
+  - Fixed: PHP Notices
+
+v7.26 - 2015-05-15
+  - Fixed: Quest trigger issue
+  - Fixed: myCRED point type issue
+
+v7.25 - 2015-05-05
+  - Added: Ability to use custom myCRED point types
+  - Fixed: Issue with achievements/quests not triggering under some situations
+
+v7.24 - 2015-04-25
+  - Added: Compatability with 4.2
+
+v7.23 - 2015-04-23
+  - Removed: Testing code left over from development of the update
+
+v7.22 - 2015-04-23
+  - Added: Compatability with 4.1.2
+  - Added: Improved dashboard widget functionality
+  - Fixed: Issue with some recurring achievements not being awarded
+  - Fixed: Issue with Custom Achievement shortcode not always firing achievements
+
+v7.21 - 2015-04-03
+  - Fixed: Array issue on Achievements page
+  - Fixed: Facebook share issue
+
+v7.20 - 2015-03-07
+  - Added: Leaderboards will now display users Nickname if available, instead of the username
+  - Fixed: Multiple minor issues
+
+v7.19 - 2014-07-25
+  - Fixed: Issue with popups being stored in wrong variable
+
+v7.18 - 2014-07-25
+  - Fixed: Issue with javascript triggering to soon
+
+v7.17 - 2014-07-25
+  - Fixed: Issue with popups not displaying correctly
+
+v7.16 - 2014-06-25
+  - Fixed: Increased compatability with new version of myCRED
+
+v7.15 - 2014-06-24
+  - Fixed: Compatability with new version of myCRED
+
+v7.14 - 2014-05-29
+  - Fixed: Missing variable causing conflicts
+
+v7.13 - 2014-05-28
+  - Fixed: Gravity forms triggers not working with quests
+  - Fixed: Similar achievements not being hidden from the new leaderboard
+  - Fixed: Multiple description texts
+  - Fixed: Several performance issues
+
+v7.12 - 2014-05-24
+  - Fixed: Achievements page now displays quest steps correctly
+
+v7.11 - 2014-05-23
+  - Fixed: Achievements & Quests get removed correctly from users when they are deleted
+  - Fixed: Quests get deleted if an achievement gets deleted that is part of the quest
+  - Fixed: Several issues on quest creation screen
+
+v7.10 - 2014-05-21
+  - Fixed: Activities not displaying in the admin bar when myCRED is active
+  - Fixed: Database column missing if installation did not finish correctly
+
+v7.09 - 2014-05-21
+  - Fixed: Issue with some achievements not triggering if points are not given for triggers
+
+v7.08 - 2014-05-20
+  - Added: Support for new versions of MyArcadePlugin
+
+v7.07 - 2014-05-17
+  - Fixed: Rank widget/shortcode showing more points then rank limit
+  - Added: Improved UserPro intergration
+  - Added: Ability to customise new datatable leaderboard columns
+
+v7.06 - 2014-05-15
+  - Fixed: Achievements showing twice on profiles when UserPro is active
+  - Fixed: Activities not being counted correctly with myCRED
+  - Fixed: Leaderboards not displaying correct points when myCRED or CubePoints are active
+  - Added: Ability to hide admins from leaderboards
+
+v7.05 - 2014-05-07
+  - Fixed: Replaced missing Facebook settings
+  - Fixed: Spelling mistake on shortcode wpa_custom_achievement
+  - Fixed: Incorrect text when rank type is set to Achievements
+  - Fixed: Multiple ranks widget issues
+  - Added: Quests are now able to use achievements as a trigger
+  - Added: Ability to set the auto-check rate for achievements
+
+v7.04 - 2014-05-03
+  - Fixed: Facebook and Twitter sharing
+
+v7.03 - 2014-05-02
+  - Fixed: Achievements page displaying wrong points
+
+v7.02 - 2014-05-02
+  - Fixed: Image sizing issues
+  - Fixed: Custom achievement shortcode not displaying
+
+v7.01 - 2014-05-01
+  - Fixed: Multiple styling issues
+  - Fixed: Multiple Quest related issues
+
+v7.00 - 2014-05-01
+  - Added: Integration with WordPress Heartbeat API
+  - Added: Ability to add Quests
+  - Added: Ability to create completely custom achievements
+  - Added: Ability to make achievements repeatable so users can gain them multiple times
+  - Added: Shortcode information page
+  - Added: Ability to use achievements count for ranks
+  - Fixed: myCRED now uses updated function
+  - Changed: Shortcode wpa_leaderboard now produces an advanced leaderboard data table
+  - Changed: Basic unformatted leaderboard list now uses shortcode wpa_leaderboard
+  - Changed: Achievements page now shows quests as well and the styling has been changed
+  - Changed: My Rank widget/shortcode styling changed
+  - Changed: Achievements now only count activity from the time the achievement is created
+  - Removed: Facebook login functionality
+
+v6.22 - 2014-04-18
+  - Added: Improved compatibility with WordPress 3.9
+
+v6.21 - 2014-03-04
+  - Fixed: Achievement shortcode issues
+
+v6.20 - 2014-03-04
+  - Fixed: Leaderboard widget not always using correct slug
+  - Fixed: Hiding similar achievements hiding incorrect achievement types
+  - Fixed: HTML tags appearing in img ALT tags
+
+v6.19 - 2014-03-02
+  - Fixed: Leaderboard widget not always linking to correct BuddyPress members URL
+  - Fixed: Hiding similar achievements no longer hides custom "Manual" achievements
+
+v6.18 - 2014-02-27
+  - Fixed: Deleting pages removes points for posts
+  - Fixed: "My Rank Widget" not working when users have negative scores
+
+v6.17 - 2014-01-21
+  - Added: Basic text formatting can now be used in "Achievement Text"
+  - Fixed: Leaderboard widget not always linking to correct BuddyPress members URL
+  - WPCourseware: Achievements can now be linked to specific Modules/Courses
+
+v6.16 - 2014-01-19
+  - Fixed: BuddyPress Links function naming issue
+  - Fixed: Improved load times and decreased server loads
+
+v6.15 - 2014-01-08
+  - Fixed: BuddyPress group delete trigger being fired when deleting activity updates
+  - Fixed: Improved front-end RTL support
+  - Fixed: Gravity Forms ID being ignored when achievement has more then one occurrence
+
+v6.14 - 2013-12-23
+  - Fixed: Database issue when users login is counted
+
+v6.13 - 2013-12-16
+  - Fixed: Setting area conflict with multiple themes
+
+v6.12 - 2013-12-14
+  - Fixed: Issue with call to undefined definition
+  - Added: Improved compatibility with WordPress 3.8
+
+v6.11 - 2013-12-05
+  - Fixed: Issue with locked content not displaying when having exactly the right amount of points
+
+v6.10 - 2013-11-26
+  - Fixed: Issue with post related achievements not always firing
+  - Added: myCRED integration
+  - Added: Improved CubePoints integration
+
+v6.09 - 2013-11-23
+  - Fixed: Multisite bug where achievements are duplicated
+
+v6.08 - 2013-11-22
+  - Fixed: Points not being deducted correctly
+  - Fixed: CubePoints not displaying correct activity
+
+v6.07 - 2013-11-21
+  - Fixed: Multisite support issues
+  - Fixed: GD Star Rating actions only triggering for default star ratings
+  - BuddyPress Links: Improved integration
+  - LearnDash: Quiz related achievements now only used the Quiz ID's
+
+v6.06 - 2013-11-20
+  - Fixed: "Limit to Rank" section always display "any"
+  - Fixed: Ranks creation page style/jQuery issues
+  - BuddyPress: Ability to limit group joining achievements to specific groups
+
+v6.05 - 2013-11-19
+  - Fixed: LearnDash Quick fixes
+
+v6.04 - 2013-11-18
+  - Fixed: Multiple fatal errors
+
+v6.03 - 2013-11-18
+  - Fixed: CubePoints integration issues
+
+v6.02 - 2013-11-18
+  - Fixed: Gained Achievements not displaying correctly
+
+v6.01 - 2013-11-18
+  - Fixed: Mutliple Quick Fixes
+
+v6.00 - 2013-11-16
+  - Fixed: BuddyPress "Join Group" event not working for private and hidden groups
+  - Fixed: Achievement popups not using custom colours
+  - Fixed: MyArcadeContest events not triggering
+  - Changed: Sidebar removed from Achievements page template
+  - Changed: "My Rank" widget/shortcode redesigned
+  - Added: New achievements creation interface
+  - Added: Improved achievement handling
+  - Added: Ability to share achievements via Twitter as well as Facebook
+  - Added: Ability to show sharing buttons on achievement popups
+  - Added: Achievements now display in users bbPress profiles
+  - Added: Ability to add a custom Achievements page template to theme files
+  - Added: Ability to award points and achievements for user logging in
+  - LearnDash: Ability to only gain 100% achievement on first try
+  - WooCommerce: Ability to award achievement if the user spends over XXX amount
+  - WooCommerce: Ability to sync all points with WooCommerce Points and Rewards plugin
+
+v5.16 - 2013-10-28
+  - Fixed: Posting new achievements to Facebook
+  - Added: Improved Facebook login functionality
+  - Added: Shortcode for Facebook login buttons
+  - Added: Users activity gets removed when they are deleted
+
+v5.15 - 2013-10-23
+  - Fixed: Achievement popup timing acting too quickly
+
+v5.14 - 2013-10-23
+  - Fixed: New user registering trigger not always firing
+
+v5.13 - 2013-10-11
+  - Fixed: New Achievements and new Ranks posting to Buddypress Activity Stream
+  - Added: Improved post visit handling
+  - Added: Multiple new hooks
+
+v5.12 - 2013-10-02
+  - Fixed: Bug where users points are reset on editing their profile
+
+v5.11 - 2013-10-02
+  - Fixed: User points being reset when editting profile
+  - Added: Leaderboard shortcode can now show user position and ranking
+
+v5.10 - 2013-09-30
+  - Fixed: Test code left in file
+
+v5.09 - 2013-09-30
+  - Fixed: Several minor bugs
+  - Added: Leaderboard shortcode now states users ranking
+
+v5.08 - 2013-09-29
+  - Fixed: Several minor bugs
+  - Added: Ability to choose leaderboard type. (Points or Achievements)
+
+v5.07 - 2013-09-25
+  - Fixed: Custom achievements not displaying on achievements page
+  - Fixed: "No Achievements Yet" message not displaying in shortcode/widget
+
+v5.06 - 2013-09-21
+  - Fixed: Achievement Shortcode error
+
+v5.05 - 2013-09-21
+  - Fixed: Several minor bugs
+  - Added: Massively improved AJAX handling
+  - Added: Ability to only show the the latest of each achievement type
+  - Added: Filter to enable hiding of Rank and/or Achievements from buddypress profiles
+  - Added: Ability to award users with custom achievements
+
+v5.04 - 2013-09-05
+  - Fixed: Several minor bugs
+  - Added: Achievements Leaderboard shortcode
+
+v5.03 - 2013-08-28
+  - Fixed: Several minor bugs
+
+v5.02 - 2013-08-21
+  - Fixed: Several minor bugs
+
+v5.01 - 2013-08-21
+  - Fixed: Several minor bugs
+  - Added: Greatly Improved Achievements Popup
+
+v5.00 - 2013-07-21
+  - Fixed: Several minor bugs
+  - Changed: jQuery UI loaded locally
+  - Added: Improved Facebook login/posting features
+  - Added: Improved RTL support
+  - Added: Improved auto-update feature
+  - Added: Improved achievement popup handling
+  - Added: WP-Courseware Integration
+
+v4.01 - 2013-07-21
+  - Fixed: Several minor bugs
+
+v4.00 - 2013-07-18
+  - Removed: User Management Area
+  - Changed: Comment and Post word count validation improved
+  - Changed: General code improvements
+  - Added: User Management abilities added to the default WordPress "Users" area
+  - Added: Improved Multi-Site support
+
+v3.03 - 2013-07-02
+  - Fixed: Achievements badges displaying incorrectly in bbPress
+  - Fixed: Several minor bugs
+  - Changed: LearnDash quiz ID's are now optional
+  - Added: Massively increased multisite support
+  - Added: Dashboard widget that displays recent activity
+  - Added: Comment and Post word count validation to help stop achievement/point "spamming"
+
+v3.02 - 2013-06-13
+  - Added: Support for WooCommerce Points and Rewards Extension
+  - Added: Improved localisation
+  - Added: Ability to link achievements to specific LearnDash lessons, quizzes and courses
+  - Added: Optimization of achievements handling function
+
+v3.01 - 2013-05-31
+  - Fixed: Function call error when MyArcadePlugin is active
+  - Fixed: Function displaying user ID when some achievements are gained
+
+v3.00 - 2013-05-29
+  - Removed: Dependency on CubePoints
+  - Removed: Support for outdated BuddyPress Gifts plugin
+  - Fixed: Ranks Widget - Ability to hide rank image
+  - Fixed: Settings - Ability to allow other user roles to manage WPAchievements
+  - Added: Settings - Ability to add custom points for all events, not just achievements
+  - Added: Settings - "Data Management" tab, adding the ability to reset all types of data
+  - Added: Achevievements - Preview when uploading custom achievement images
+  - Added: Achevievements - Ability to change images of existing achievements
+  - Added: User Management - Ability to modify individual users points
+  - Added: Improved support for BuddyPress
+  - Added: Improved support for bbPress
+  - Added: Improved support for Simple:Press
+  - Added: Improved support for default WordPress actions
+  - Added: Improved support for WP Favorite Posts
+  - Added: Support for CubePoints
+  - Added: Support for LearnDash
+  - Added: Support for WooCommerce
+  - Added: Support for Jigoshop
+  - Added: Support for Invite Anyone
+  - Added: "Supported Plugins" Page
+
+v2.14.1 - 2013-05-09
+  - Fixed: Achievements now use Form ID to specify a specific Gravity Form
+
+v2.14 - 2013-05-07
+  - Fixed: Achievement validation incorrectly asking for Post ID when Gravity Forms is active
+
+v2.13 - 2013-05-04
+  - Added: Achievements display in bbPress forums
+  - Added: Widget to display achievements the user has gained
+  - Added: Widget to display the users current rank
+  - Added: Ability to add achievement to a specific Gravity Form using the page ID
+
+v2.12 - 2013-04-20
+  - Added: Support for Simple:Press
+  - Added: Support for Gravity Forms
+  - Added: Support for GD Star Rating
+  - Added: Extra Support for bbPress
+  - Added: Support for BuddyStream
+  - Added: Support for WP e-Commerce
+  - Added: Ability to hide the custom "Achievements" page
+
+v2.11 - 2013-04-01
+  - Fixed: Missing call to BuddyPress global class
+
+v2.10 - 2013-03-30
+  - Fixed: Additional Links to "Achivements" page leading to random post
+
+v2.09 - 2013-03-30
+  - Fixed: Link to "Achivements" page leading to random post
+
+v2.08 - 2013-03-25
+  - Fixed: Small CSS issues
+  - Fixed: Issue relating to the file acquisition
+
+v2.07 - 2013-03-24
+  - Added: Customisable Popup Sounds
+  - Added: New Localisation Method
+  - Added: Ability to add images to ranks
+  - Added: Shortcodes to display current users achievements and current users rank
+
+v2.06 - 2013-03-18
+  - Added: Multi-site Compatibility
+
+v2.05 - 2013-03-13
+  - Fixed: Replaced several occurrences of deprecated functions
+
+v2.04 - 2013-03-11
+  - Added: User Adds Comment Achievement Trigger Event
+  - Fixed: Achievement Title can no longer use special characters
+
+v2.03 - 2013-02-17
+  - Added: New MyArcadeContest Achievement Trigger Event
+  - Added: Leaderboard Widget updating functions to keep leaderboard correct
+  - Fixed: Improved functions handling several Achievement Trigger Events
+
+v2.02 - 2013-02-03
+  - Fixed: Issue with "Game" and "Post" not translating
+  - Fixed: Issue with achievements not being able to edit achievements that use special characters
+
+v2.01 - 2013-01-23
+  - Fixed: Rare BuddyPress integration issue
+
+v2.00 - 2013-01-23
+  - Fixed: Rare Leaderboard Widget issue
+  - Fixed: Several rare BuddyPress integration issues
+  - Fixed: Small User Management issues
+  - Fixed: Removed commented out code left from previous update
+  - Fixed: Improvement to Achievement display function
+
+v1.43 - 2013-01-21
+  - Fixed: Ability to use special language characters
+
+v1.42 - 2012-12-19
+  - Fixed: Issue with leaderboard widget not displaying
+
+v1.41 - 2012-12-11
+  - Fixed: Compatibility issues with WordPress 3.5
+
+v1.40 - 2012-12-02
+  - Added: Ability to edit achievement descriptions
+  - Added: Automatic update feature
+
+v1.33 - 2012-11-19
+  - Fixed: Problem with Admin settings save function
+
+v1.32 - 2012-11-17
+  - Fixed: Problem with Ultimate Facebook posting permissions
+
+v1.31 - 2012-11-16
+  - Fixed: Function confilct with some themes
+  - Fixed: Removed comments placed during the testing of functions
+  - Fixed: Issue with widget not displaying correctly
+  - Fixed: issue with achievement popup not using Stick mode correctly
+
+v1.30 - 2012-11-13
+  - Fixed: Achievements displaying incorrectly on Buddypress Profile page
+  - Added: Ability to customise the achievements popup
+  - Added: Ability for user roles to manage plugin
+  - Added: Custom Facebook login script
+
+v1.20 - 2012-10-27
+  - Fixed: Multiple small css issues
+  - Added: Code optimised
+  - Added: Localisation Support
+  - Added: Post to Facebook when gaining a new Achievement
+
+v1.10 - 2012-10-25
+  - Fixed: Ranks menu not displaying for all users
+  - Fixed: Points menu not displaying for all users
+  - Fixed: Add to favorites detection issue
+  - Fixed: Multiple small css issues
+  - Added: Achievements page to display all achievements
+  - Added: Achievements page link in user panel widget
+  - Added: BBPress Integration
+  - Added: BuddyPress Gifts Integration
+  - Added: BuddyPress Gallery Integration
+  - Added: BuddyPress Links Integration
+  - Removed: Game/Post rating detection ability

@@ -1,0 +1,68 @@
+#upgrade-notice{
+  background:#1C1C1C;width:530px;padding:10px;margin-top:15px;border:3px solid #ccc;-moz-border-radius:5px !important;border-radius:5px !important;
+}
+#upgrade-notice h3{
+  color:#ffffff;font-size:18px;text-transform:uppercase;padding:0 0 5px 5px;border-bottom:1px solid #999;
+}
+#upgrade-notice p{
+  font-size:13px !important;
+  color:#fff;
+}
+#upgrade-notice li{
+  font-size:12px !important;
+  color:#fff;
+}
+#upgrade-notice ul{
+  padding-left:35px;
+  list-style-type:disc;
+  margin-bottom:25px;
+}
+.upgrade-btn{
+  margin:15px 0 0 0 !important;
+	-moz-border-radius:5px !important;border-radius:5px !important;
+	cursor:pointer !important;
+	border: 1px solid #282828 !important;
+	color:#fff !important;
+	padding: 6px 16px !important;
+	text-decoration: none !important;
+	font-size: 1.5em !important;
+	font-weight:bold !important;
+	background:rgb(16,78,139) !important;
+	background:-webkit-gradient(
+	    linear,
+	    left bottom,
+    	left top,
+	    color-stop(0.12, rgb(16,78,139)),
+	    color-stop(1, rgb(28,134,238))
+	) !important;
+	background:-moz-linear-gradient(
+	    center bottom,
+	    rgb(16,78,139) 12%,
+    	rgb(28,134,238) 100%
+	) !important;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.25) !important;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.25) !important;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.25) !important;
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25) !important;
+}
+.upgrade-btn:hover{
+	background: #282828 !important;
+	transition: none;
+	-webkit-transition: none;
+	-moz-transition: none;
+}
+
+#plugin-support-images{
+  width:100%;
+  height:100%;
+}
+#plugin-support-images .item{
+  width:32%;
+  min-width:380px;
+  float:left;
+  margin:5px 10px 3px 0;
+}
+#plugin-support-images .item img{
+  max-width:100%;
+  max-height:100%;
+}

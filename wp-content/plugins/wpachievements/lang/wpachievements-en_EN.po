@@ -1,0 +1,2563 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPAchievements\n"
+"POT-Creation-Date: 2014-05-03 10:27-0000\n"
+"PO-Revision-Date: 2014-05-03 14:43-0000\n"
+"Last-Translator: Digital Builder Ltd <support@digital-buillder.co.uk>\n"
+"Language-Team: Digital Builder Ltd <support@digital-builder.co.uk>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: E:\\WORK\\xampp\\htdocs\\wpa_new\\wp-content\\plugins"
+"\\wpachievements\\\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/admin-interface.php:82
+msgid "WPAchievements Settings"
+msgstr ""
+
+#: admin/admin-interface.php:919 admin/admin-interface.php:922
+msgid "On"
+msgstr ""
+
+#: admin/admin-interface.php:919 admin/admin-interface.php:922
+msgid "Off"
+msgstr ""
+
+#: admin/admin-interface.php:961 admin/admin-interface.php:964
+msgid "Yes"
+msgstr ""
+
+#: admin/admin-interface.php:961 admin/admin-interface.php:964
+msgid "No"
+msgstr ""
+
+#: admin/admin-settings.php:54
+msgid "General Settings"
+msgstr ""
+
+#: admin/admin-settings.php:57
+msgid "Purchase Code"
+msgstr ""
+
+#: admin/admin-settings.php:58
+msgid "This is required to get future updates."
+msgstr ""
+
+#: admin/admin-settings.php:63
+msgid "User Role"
+msgstr ""
+
+#: admin/admin-settings.php:64
+msgid "Select the minimum user role that can modify WPAchievements."
+msgstr ""
+
+#: admin/admin-settings.php:70
+msgid "Achievements Page"
+msgstr ""
+
+#: admin/admin-settings.php:71
+msgid "Select which page to use to display the custom Achievements page."
+msgstr ""
+
+#: admin/admin-settings.php:81
+msgid "Hide Similar Achievements"
+msgstr ""
+
+#: admin/admin-settings.php:82
+msgid ""
+"Example: If user has achievement for 10 comments and for 20 comments, only "
+"20 comment achievement will be shown in widgets, shortcodes etc."
+msgstr ""
+
+#: admin/admin-settings.php:87
+msgid "RTL Language"
+msgstr ""
+
+#: admin/admin-settings.php:88
+msgid "Select whether you are translating the plugin into a RTL Language."
+msgstr ""
+
+#: admin/admin-settings.php:95
+msgid "Achievement Popup"
+msgstr ""
+
+#: admin/admin-settings.php:98
+msgid "Show Sharing Buttons"
+msgstr ""
+
+#: admin/admin-settings.php:99
+msgid ""
+"Select whether to show the Facebook and Twitter buttons.<br/><strong>NOTE:</"
+"strong> Facebook App info must be entered."
+msgstr ""
+
+#: admin/admin-settings.php:104
+msgid "Popup Time"
+msgstr ""
+
+#: admin/admin-settings.php:105
+msgid ""
+"Enter the number of seconds before the popup box fades away.<br/>(Enter 0 to "
+"disable fade away)"
+msgstr ""
+
+#: admin/admin-settings.php:110
+msgid "Popup background Color"
+msgstr ""
+
+#: admin/admin-settings.php:111
+msgid "Choose the colour of the popup box."
+msgstr ""
+
+#: admin/admin-settings.php:144
+msgid "Point Settings"
+msgstr ""
+
+#: admin/admin-settings.php:149
+msgid "Important Information!"
+msgstr ""
+
+#: admin/admin-settings.php:159
+msgid "WooCommerce Points and Rewards"
+msgstr ""
+
+#: admin/admin-settings.php:163
+msgid "Sync All Points"
+msgstr ""
+
+#: admin/admin-settings.php:164
+msgid ""
+"This will make all points gained be added to WooCommerce Points and Rewards."
+"<br/><strong>Note:</strong> This is not recommeded as user can gain points "
+"quickly."
+msgstr ""
+
+#: admin/admin-settings.php:175
+msgid "Trigger Validation"
+msgstr ""
+
+#: modules/bbpress.php:162 modules/bbpress.php:192 modules/buddypress.php:315
+#: modules/buddypress.php:362
+msgid "topics"
+msgstr ""
+
+#: modules/bbpress.php:163 modules/bbpress.php:193
+msgid "replys"
+msgstr ""
+
+#: modules/bbpress.php:164 modules/bbpress.php:194
+msgid "forums"
+msgstr ""
+
+#: modules/bbpress.php:166 modules/bbpress.php:196 modules/buddypress.php:325
+#: modules/buddypress.php:372
+msgid "topic"
+msgstr ""
+
+#: modules/bbpress.php:167 modules/bbpress.php:197 modules/buddypress.php:322
+#: modules/buddypress.php:369
+msgid "reply"
+msgstr ""
+
+#: modules/bbpress.php:168 modules/bbpress.php:198
+msgid "forum"
+msgstr ""
+
+#: modules/bbpress.php:171
+#, php-format
+msgid "for creating %s new forum %s"
+msgstr ""
+
+#: modules/bbpress.php:172
+#, php-format
+msgid "for creating %s forum %s"
+msgstr ""
+
+#: modules/bbpress.php:173 modules/buddypress.php:336
+#, php-format
+msgid "for creating %s %s"
+msgstr ""
+
+#: modules/bbpress.php:174
+#, php-format
+msgid "for editting %s %s"
+msgstr ""
+
+#: modules/bbpress.php:175 modules/bbpress.php:177
+#, php-format
+msgid "for deleting %s forum %s"
+msgstr ""
+
+#: modules/bbpress.php:176 modules/buddypress-links.php:75
+#: modules/buddypress.php:332 modules/simplepress.php:216
+#: modules/simplepress.php:218
+#, php-format
+msgid "for deleting %s %s"
+msgstr ""
+
+#: modules/bbpress.php:178
+#, php-format
+msgid "for merging %s forum %s"
+msgstr ""
+
+#: modules/bbpress.php:179
+#, php-format
+msgid "for splitting %s forum %s"
+msgstr ""
+
+#: modules/bbpress.php:180
+#, php-format
+msgid "for marking %s %s as sticky"
+msgstr ""
+
+#: modules/bbpress.php:181
+#, php-format
+msgid "for marking %s %s unsticky"
+msgstr ""
+
+#: modules/bbpress.php:201
+#, php-format
+msgid "Create %s new forum %s"
+msgstr ""
+
+#: modules/bbpress.php:202
+#, php-format
+msgid "Create %s forum %s"
+msgstr ""
+
+#: modules/bbpress.php:203 modules/buddypress.php:383
+#, php-format
+msgid "Create %s %s"
+msgstr ""
+
+#: modules/bbpress.php:204
+#, php-format
+msgid "Edit %s %s"
+msgstr ""
+
+#: modules/bbpress.php:205 modules/bbpress.php:207
+#, php-format
+msgid "Delete %s forum %s"
+msgstr ""
+
+#: modules/bbpress.php:206 modules/buddypress-links.php:94
+#: modules/buddypress.php:379 modules/simplepress.php:248
+#: modules/simplepress.php:250
+#, php-format
+msgid "Delete %s %s"
+msgstr ""
+
+#: modules/bbpress.php:208
+#, php-format
+msgid "Merge %s forum %s"
+msgstr ""
+
+#: modules/bbpress.php:209
+#, php-format
+msgid "Split %s forum %s"
+msgstr ""
+
+#: modules/bbpress.php:210
+#, php-format
+msgid "Mark %s %s as sticky"
+msgstr ""
+
+#: modules/bbpress.php:211
+#, php-format
+msgid "Mark %s %s unsticky"
+msgstr ""
+
+#: modules/bbpress.php:223 modules/simplepress.php:269
+msgid "User Adding Topics"
+msgstr ""
+
+#: modules/bbpress.php:224 modules/simplepress.php:270
+msgid "Points awarded when the user adds a topic."
+msgstr ""
+
+#: modules/bbpress.php:228 modules/buddypress.php:425
+#: modules/simplepress.php:274
+msgid "User Adding Reply"
+msgstr ""
+
+#: modules/bbpress.php:229 modules/simplepress.php:275
+msgid "Points awarded when the user adds a topic reply."
+msgstr ""
+
+#: modules/bbpress.php:240 modules/bbpress.php:259
+msgid "The users creates a new forum"
+msgstr ""
+
+#: modules/bbpress.php:241 modules/bbpress.php:260
+msgid "The users edits a forum"
+msgstr ""
+
+#: modules/bbpress.php:242 modules/bbpress.php:261
+msgid "The users deletes a forum"
+msgstr ""
+
+#: modules/bbpress.php:243 modules/bbpress.php:262
+msgid "The users opens a new topic"
+msgstr ""
+
+#: modules/bbpress.php:244 modules/bbpress.php:263
+msgid "The users closes a topic"
+msgstr ""
+
+#: modules/bbpress.php:245 modules/bbpress.php:264
+msgid "The users merges two topics together"
+msgstr ""
+
+#: modules/bbpress.php:246 modules/bbpress.php:265
+msgid "The users splits a topic into multiple topics"
+msgstr ""
+
+#: modules/bbpress.php:247 modules/bbpress.php:266
+msgid "The users marks a topic as sticky"
+msgstr ""
+
+#: modules/bbpress.php:248 modules/bbpress.php:267
+msgid "The users stops a topic being sticky"
+msgstr ""
+
+#: modules/bbpress.php:249 modules/bbpress.php:268
+msgid "The users adds a new reply"
+msgstr ""
+
+#: modules/bbpress.php:250 modules/bbpress.php:269
+msgid "The users deletes a reply"
+msgstr ""
+
+#: modules/bbpress.php:282 modules/buddypress.php:610
+#: wpachievements_admin.php:1488 wpachievements_admin.php:1489
+#: wpachievements_ranks.php:276 wpachievements_ranks.php:278
+#: wpachievements_shortcodes.php:277 wpachievements_shortcodes.php:389
+msgid "Rank"
+msgstr ""
+
+#: modules/bbpress.php:285 modules/buddypress.php:546
+#: wpachievements_shortcodes.php:30
+msgid "My Achievements"
+msgstr ""
+
+#: modules/bbpress.php:316 modules/bbpress.php:324 modules/buddypress.php:575
+#: modules/buddypress.php:583 wpachievements_shortcodes.php:74
+#: wpachievements_shortcodes.php:81 wpachievements_shortcodes.php:86
+#: wpachievements_shortcodes.php:167 wpachievements_shortcodes.php:431
+#: wpachievements_shortcodes.php:460
+msgid " Icon"
+msgstr ""
+
+#: modules/bp-gallery.php:39 modules/bp-gallery.php:56
+msgid "times"
+msgstr ""
+
+#: modules/bp-gallery.php:41 modules/bp-gallery.php:58
+msgid "time"
+msgstr ""
+
+#: modules/bp-gallery.php:44
+#, php-format
+msgid "for uploading to a gallery %s %s"
+msgstr ""
+
+#: modules/bp-gallery.php:45
+#, php-format
+msgid "for deleting from a gallery %s %s"
+msgstr ""
+
+#: modules/bp-gallery.php:61
+#, php-format
+msgid "Upload to a gallery %s %s"
+msgstr ""
+
+#: modules/bp-gallery.php:62
+#, php-format
+msgid "Delete from a gallery %s %s"
+msgstr ""
+
+#: modules/bp-gallery.php:74
+msgid "User Uploads Image"
+msgstr ""
+
+#: modules/bp-gallery.php:75
+msgid "Points awarded when the user uploads an image."
+msgstr ""
+
+#: modules/bp-gallery.php:87 modules/bp-gallery.php:99
+msgid "The user uploads to a gallery"
+msgstr ""
+
+#: modules/bp-gallery.php:88 modules/bp-gallery.php:100
+msgid "The user deletes from a gallery"
+msgstr ""
+
+#: modules/buddypress-links.php:67 modules/buddypress-links.php:86
+msgid "links"
+msgstr ""
+
+#: modules/buddypress-links.php:69 modules/buddypress-links.php:88
+msgid "link"
+msgstr ""
+
+#: modules/buddypress-links.php:72 modules/buddypress.php:333
+#: modules/buddypress.php:339 modules/simplepress.php:215
+#: modules/simplepress.php:217 modules/simplepress.php:223
+#: modules/wordpress.php:345 modules/wordpress.php:349
+#: wpachievements_achievments.php:509
+#, php-format
+msgid "for adding %s %s"
+msgstr ""
+
+#: modules/buddypress-links.php:73 modules/simplepress.php:224
+#, php-format
+msgid "for voting on %s %s"
+msgstr ""
+
+#: modules/buddypress-links.php:74
+#, php-format
+msgid "for commenting on %s %s"
+msgstr ""
+
+#: modules/buddypress-links.php:91 modules/buddypress.php:380
+#: modules/buddypress.php:386 modules/simplepress.php:247
+#: modules/simplepress.php:249 modules/simplepress.php:255
+#: modules/wordpress.php:370 modules/wordpress.php:371
+#: wpachievements_quests.php:280
+#, php-format
+msgid "Add %s %s"
+msgstr ""
+
+#: modules/buddypress-links.php:92 modules/simplepress.php:256
+#, php-format
+msgid "Vote on %s %s"
+msgstr ""
+
+#: modules/buddypress-links.php:93
+#, php-format
+msgid "Comment on %s %s"
+msgstr ""
+
+#: modules/buddypress-links.php:106
+msgid "User Adding Links"
+msgstr ""
+
+#: modules/buddypress-links.php:107
+msgid "Points awarded when the user adds a link."
+msgstr ""
+
+#: modules/buddypress-links.php:111
+msgid "User Link Voting"
+msgstr ""
+
+#: modules/buddypress-links.php:112
+msgid "Points awarded when the user votes on a link."
+msgstr ""
+
+#: modules/buddypress-links.php:116
+msgid "User Link Comments"
+msgstr ""
+
+#: modules/buddypress-links.php:117
+msgid "Points awarded when the user comments on a link."
+msgstr ""
+
+#: modules/buddypress-links.php:128 modules/buddypress-links.php:140
+msgid "The user adds a link"
+msgstr ""
+
+#: modules/buddypress-links.php:129 modules/buddypress-links.php:141
+msgid "The user votes on a link"
+msgstr ""
+
+#: modules/buddypress-links.php:130 modules/buddypress-links.php:142
+msgid "The user comments on a link"
+msgstr ""
+
+#: modules/buddypress-links.php:131 modules/buddypress-links.php:143
+msgid "The user delets a link"
+msgstr ""
+
+#: modules/buddypress.php:310 modules/buddypress.php:357
+msgid "groups"
+msgstr ""
+
+#: modules/buddypress.php:311 modules/buddypress.php:358
+msgid "updates"
+msgstr ""
+
+#: modules/buddypress.php:312 modules/buddypress.php:359
+msgid "replies"
+msgstr ""
+
+#: modules/buddypress.php:313 modules/buddypress.php:360
+msgid "friends"
+msgstr ""
+
+#: modules/buddypress.php:314 modules/buddypress.php:361
+msgid "friendships"
+msgstr ""
+
+#: modules/buddypress.php:316 modules/buddypress.php:363
+msgid "posts"
+msgstr ""
+
+#: modules/buddypress.php:317 modules/buddypress.php:364
+msgid "avatars"
+msgstr ""
+
+#: modules/buddypress.php:318 modules/buddypress.php:365
+msgid "messages"
+msgstr ""
+
+#: modules/buddypress.php:320 modules/buddypress.php:367
+msgid "group"
+msgstr ""
+
+#: modules/buddypress.php:321 modules/buddypress.php:368
+msgid "update"
+msgstr ""
+
+#: modules/buddypress.php:323 modules/buddypress.php:370
+msgid "friend"
+msgstr ""
+
+#: modules/buddypress.php:324 modules/buddypress.php:371
+msgid "friendship"
+msgstr ""
+
+#: modules/buddypress.php:326 modules/buddypress.php:373
+msgid "post"
+msgstr ""
+
+#: modules/buddypress.php:327 modules/buddypress.php:374
+msgid "avatar"
+msgstr ""
+
+#: modules/buddypress.php:328 modules/buddypress.php:375
+msgid "message"
+msgstr ""
+
+#: modules/buddypress.php:331
+#, php-format
+msgid "for creating %s new %s"
+msgstr ""
+
+#: modules/buddypress.php:334 modules/myarcadecontest.php:52
+#, php-format
+msgid "for joining %s %s"
+msgstr ""
+
+#: modules/buddypress.php:335
+#, php-format
+msgid "for leaving %s %s"
+msgstr ""
+
+#: modules/buddypress.php:337
+#, php-format
+msgid "for creating %s group %s"
+msgstr ""
+
+#: modules/buddypress.php:338 modules/simplepress.php:220
+#: wpachievements_achievments.php:509
+#, php-format
+msgid "for removing %s %s"
+msgstr ""
+
+#: modules/buddypress.php:340
+#, php-format
+msgid "for cancelling %s %s"
+msgstr ""
+
+#: modules/buddypress.php:341
+#, php-format
+msgid "for creating %s group forum %s"
+msgstr ""
+
+#: modules/buddypress.php:342
+#, php-format
+msgid "for creating %s new group forum %s"
+msgstr ""
+
+#: modules/buddypress.php:343
+#, php-format
+msgid "for editting %s group forum %s"
+msgstr ""
+
+#: modules/buddypress.php:344
+#, php-format
+msgid "for uploading %s new %s"
+msgstr ""
+
+#: modules/buddypress.php:345
+#, php-format
+msgid "for uploading %s new group %s"
+msgstr ""
+
+#: modules/buddypress.php:346 modules/invite-anyone.php:65
+#, php-format
+msgid "for sending %s %s"
+msgstr ""
+
+#: modules/buddypress.php:378
+#, php-format
+msgid "Create %s new %s"
+msgstr ""
+
+#: modules/buddypress.php:381 modules/myarcadecontest.php:72
+#, php-format
+msgid "Join %s %s"
+msgstr ""
+
+#: modules/buddypress.php:382
+#, php-format
+msgid "Leave %s %s"
+msgstr ""
+
+#: modules/buddypress.php:384
+#, php-format
+msgid "Create %s group %s"
+msgstr ""
+
+#: modules/buddypress.php:385 modules/simplepress.php:252
+#, php-format
+msgid "Remove %s %s"
+msgstr ""
+
+#: modules/buddypress.php:387
+#, php-format
+msgid "Cancel %s %s"
+msgstr ""
+
+#: modules/buddypress.php:388
+#, php-format
+msgid "Create %s group forum %s"
+msgstr ""
+
+#: modules/buddypress.php:389
+#, php-format
+msgid "Create %s new group forum %s"
+msgstr ""
+
+#: modules/buddypress.php:390
+#, php-format
+msgid "Edit %s group forum %s"
+msgstr ""
+
+#: modules/buddypress.php:391
+#, php-format
+msgid "Upload %s new %s"
+msgstr ""
+
+#: modules/buddypress.php:392
+#, php-format
+msgid "Upload %s new group %s"
+msgstr ""
+
+#: modules/buddypress.php:393 modules/invite-anyone.php:82
+#, php-format
+msgid "Send %s %s"
+msgstr ""
+
+#: modules/buddypress.php:405
+msgid "User Adding Avatar"
+msgstr ""
+
+#: modules/buddypress.php:406
+msgid "Points awarded when the user adds a avatar."
+msgstr ""
+
+#: modules/buddypress.php:410
+msgid "User Adding Friends"
+msgstr ""
+
+#: modules/buddypress.php:411
+msgid "Points awarded when the user adds a friend."
+msgstr ""
+
+#: modules/buddypress.php:415
+msgid "User Sending Messages"
+msgstr ""
+
+#: modules/buddypress.php:416
+msgid "Points awarded when the user adds a message."
+msgstr ""
+
+#: modules/buddypress.php:420
+msgid "User Adding Update"
+msgstr ""
+
+#: modules/buddypress.php:421
+msgid "Points awarded when the user adds an update."
+msgstr ""
+
+#: modules/buddypress.php:426
+msgid "Points awarded when the user adds a reply."
+msgstr ""
+
+#: modules/buddypress.php:430
+msgid "User Adding Groups"
+msgstr ""
+
+#: modules/buddypress.php:431
+msgid "Points awarded when the user adds a group."
+msgstr ""
+
+#: modules/buddypress.php:435
+msgid "User Adding Group Avatar"
+msgstr ""
+
+#: modules/buddypress.php:436
+msgid "Points awarded when the user adds a group avatar."
+msgstr ""
+
+#: modules/buddypress.php:440
+msgid "User Joins Groups"
+msgstr ""
+
+#: modules/buddypress.php:441
+msgid "Points awarded when the user joins a group."
+msgstr ""
+
+#: modules/buddypress.php:445
+msgid "User Adding Group Topic"
+msgstr ""
+
+#: modules/buddypress.php:446
+msgid "Points awarded when the user adds a group topic."
+msgstr ""
+
+#: modules/buddypress.php:450
+msgid "User Adding Group Reply"
+msgstr ""
+
+#: modules/buddypress.php:451
+msgid "Points awarded when the user adds a group reply."
+msgstr ""
+
+#: modules/buddypress.php:455
+msgid "User Adding Group Forum Post"
+msgstr ""
+
+#: modules/buddypress.php:456
+msgid "Points awarded when the user adds a group forum post."
+msgstr ""
+
+#: modules/buddypress.php:467 modules/buddypress.php:495
+msgid "The user uploads an avatar"
+msgstr ""
+
+#: modules/buddypress.php:468 modules/buddypress.php:496
+msgid "The user sends a message"
+msgstr ""
+
+#: modules/buddypress.php:469 modules/buddypress.php:497
+msgid "The user adds a new friend"
+msgstr ""
+
+#: modules/buddypress.php:470 modules/buddypress.php:498
+msgid "The user removes a friend"
+msgstr ""
+
+#: modules/buddypress.php:471 modules/buddypress.php:499
+msgid "The user adds an update"
+msgstr ""
+
+#: modules/buddypress.php:472 modules/buddypress.php:500
+msgid "The user creates a reply"
+msgstr ""
+
+#: modules/buddypress.php:473 modules/buddypress.php:501
+msgid "The user removes an update"
+msgstr ""
+
+#: modules/buddypress.php:476 modules/buddypress.php:502
+msgid "The user creates a group"
+msgstr ""
+
+#: modules/buddypress.php:477 modules/buddypress.php:503
+msgid "The user deletes a group"
+msgstr ""
+
+#: modules/buddypress.php:478 modules/buddypress.php:504
+msgid "The user joins a group"
+msgstr ""
+
+#: modules/buddypress.php:479 modules/buddypress.php:505
+msgid "The user leaves a group"
+msgstr ""
+
+#: modules/buddypress.php:480 modules/buddypress.php:506
+msgid "The user creates a group reply"
+msgstr ""
+
+#: modules/buddypress.php:481 modules/buddypress.php:507
+msgid "The user uploads a group avatar"
+msgstr ""
+
+#: modules/buddypress.php:484 modules/buddypress.php:508
+msgid "The user creates a new group forum topic"
+msgstr ""
+
+#: modules/buddypress.php:485 modules/buddypress.php:509
+msgid "The user creates a new group forum post"
+msgstr ""
+
+#: modules/buddypress.php:486 modules/buddypress.php:510
+msgid "The user edits a group forum post"
+msgstr ""
+
+#: modules/buddypress.php:530
+#, php-format
+msgid "I just gained the achievement %s and got %s points!"
+msgstr ""
+
+#: modules/buddypress.php:531
+msgid "I just gained a new achievement!!!"
+msgstr ""
+
+#: modules/buddypress.php:597
+#, php-format
+msgid "I was just promoted to the rank of %s"
+msgstr ""
+
+#: modules/buddypress.php:598
+#, php-format
+msgid "%s gained a new rank"
+msgstr ""
+
+#: modules/buddystream.php:65 modules/buddystream.php:68
+msgid "for connecting your Flickr account"
+msgstr ""
+
+#: modules/buddystream.php:66
+msgid "for connecting your Last.fm account"
+msgstr ""
+
+#: modules/buddystream.php:67
+msgid "for connecting your Twitter account"
+msgstr ""
+
+#: modules/buddystream.php:69
+msgid "for connecting your YouTube account"
+msgstr ""
+
+#: modules/buddystream.php:80 modules/buddystream.php:83
+msgid "Connect your Flickr account"
+msgstr ""
+
+#: modules/buddystream.php:81
+msgid "Connect your Last.fm account"
+msgstr ""
+
+#: modules/buddystream.php:82
+msgid "Connect your Twitter account"
+msgstr ""
+
+#: modules/buddystream.php:84
+msgid "Connect your YouTube account"
+msgstr ""
+
+#: modules/buddystream.php:93 modules/buddystream.php:106
+msgid "The user connects their Facebook account to BuddyStream"
+msgstr ""
+
+#: modules/buddystream.php:94 modules/buddystream.php:107
+msgid "The user connects their Flickr account to BuddyStream"
+msgstr ""
+
+#: modules/buddystream.php:95 modules/buddystream.php:108
+msgid "The user connects their Last.fm account to BuddyStream"
+msgstr ""
+
+#: modules/buddystream.php:96 modules/buddystream.php:109
+msgid "The user connects their Twitter account to BuddyStream"
+msgstr ""
+
+#: modules/buddystream.php:97 modules/buddystream.php:110
+msgid "The user connects their YouTube account to BuddyStream"
+msgstr ""
+
+#: modules/cubepoints.php:22
+msgid "Achievement Removed"
+msgstr ""
+
+#: modules/cubepoints.php:23
+msgid "Achievement Added"
+msgstr ""
+
+#: modules/cubepoints.php:24
+msgid "Quest Removed"
+msgstr ""
+
+#: modules/gd-star-rating.php:41 modules/simplepress.php:219
+#, php-format
+msgid "for rating %s %s"
+msgstr ""
+
+#: modules/gd-star-rating.php:52 modules/simplepress.php:251
+#, php-format
+msgid "Rate %s %s"
+msgstr ""
+
+#: modules/gd-star-rating.php:64
+msgid "User Adding Ratings"
+msgstr ""
+
+#: modules/gd-star-rating.php:65 modules/simplepress.php:281
+msgid "Points awarded when the user adds a rating."
+msgstr ""
+
+#: modules/gd-star-rating.php:76 modules/gd-star-rating.php:85
+msgid "The user adds a rating"
+msgstr ""
+
+#: modules/gravity-forms.php:41 modules/gravity-forms.php:57
+msgid "forms"
+msgstr ""
+
+#: modules/gravity-forms.php:43 modules/gravity-forms.php:59
+msgid "form"
+msgstr ""
+
+#: modules/gravity-forms.php:46 modules/myarcadeplugin.php:100
+#, php-format
+msgid "for submitting %s %s"
+msgstr ""
+
+#: modules/gravity-forms.php:62 modules/myarcadeplugin.php:123
+#, php-format
+msgid "Submit %s %s"
+msgstr ""
+
+#: modules/gravity-forms.php:74
+msgid "User Submitting Forms"
+msgstr ""
+
+#: modules/gravity-forms.php:75
+msgid "Points awarded when the user submits a form."
+msgstr ""
+
+#: modules/gravity-forms.php:86 modules/gravity-forms.php:95
+msgid "The user submits a form"
+msgstr ""
+
+#: modules/invite-anyone.php:60 modules/invite-anyone.php:77
+msgid "invites"
+msgstr ""
+
+#: modules/invite-anyone.php:62 modules/invite-anyone.php:79
+msgid "invite"
+msgstr ""
+
+#: modules/invite-anyone.php:66
+#, php-format
+msgid "for %s %s being accepted"
+msgstr ""
+
+#: modules/invite-anyone.php:83
+#, php-format
+msgid "Have %s %s accepted"
+msgstr ""
+
+#: modules/invite-anyone.php:95
+msgid "User Invite Accepted"
+msgstr ""
+
+#: modules/invite-anyone.php:96
+msgid "Points awarded when the users invite is accepted."
+msgstr ""
+
+#: modules/invite-anyone.php:107 modules/invite-anyone.php:117
+msgid "The user invites someone"
+msgstr ""
+
+#: modules/invite-anyone.php:108 modules/invite-anyone.php:118
+msgid "The users invitation is accepted"
+msgstr ""
+
+#: modules/jigoshop.php:39 modules/jigoshop.php:55 modules/woocommerce.php:40
+#: modules/woocommerce.php:54
+msgid "orders"
+msgstr ""
+
+#: modules/jigoshop.php:41 modules/jigoshop.php:57 modules/woocommerce.php:42
+#: modules/woocommerce.php:56
+msgid "order"
+msgstr ""
+
+#: modules/jigoshop.php:44 modules/woocommerce.php:45
+#, php-format
+msgid "for making %s %s"
+msgstr ""
+
+#: modules/jigoshop.php:60 modules/woocommerce.php:59
+#, php-format
+msgid "Make %s %s"
+msgstr ""
+
+#: modules/jigoshop.php:72 modules/woocommerce.php:71
+msgid "User Completes Orders"
+msgstr ""
+
+#: modules/jigoshop.php:73 modules/woocommerce.php:72
+msgid "Points awarded when the users completes an order."
+msgstr ""
+
+#: modules/jigoshop.php:84 modules/jigoshop.php:93 modules/woocommerce.php:83
+#: modules/woocommerce.php:93
+msgid "The user completes an order"
+msgstr ""
+
+#: modules/learndash.php:105 modules/learndash.php:131
+#: modules/wpcourseware.php:95 modules/wpcourseware.php:120
+msgid "quizzes"
+msgstr ""
+
+#: modules/learndash.php:106 modules/learndash.php:132
+#: modules/myarcadeplugin.php:90 modules/myarcadeplugin.php:113
+#: modules/wpcourseware.php:96 modules/wpcourseware.php:121
+msgid "scores"
+msgstr ""
+
+#: modules/learndash.php:107 modules/learndash.php:133
+msgid "lessons"
+msgstr ""
+
+#: modules/learndash.php:108 modules/learndash.php:134
+#: modules/wpcourseware.php:98 modules/wpcourseware.php:123
+msgid "courses"
+msgstr ""
+
+#: modules/learndash.php:110 modules/learndash.php:136
+#: modules/wpcourseware.php:100 modules/wpcourseware.php:125
+msgid "quiz"
+msgstr ""
+
+#: modules/learndash.php:111 modules/learndash.php:137
+#: modules/myarcadeplugin.php:94 modules/myarcadeplugin.php:117
+#: modules/wpcourseware.php:101 modules/wpcourseware.php:126
+msgid "score"
+msgstr ""
+
+#: modules/learndash.php:112 modules/learndash.php:138
+msgid "lesson"
+msgstr ""
+
+#: modules/learndash.php:113 modules/learndash.php:139
+#: modules/wpcourseware.php:103 modules/wpcourseware.php:128
+msgid "course"
+msgstr ""
+
+#: modules/learndash.php:116 modules/wpcourseware.php:106
+#, php-format
+msgid "for passing %s %s"
+msgstr ""
+
+#: modules/learndash.php:117
+#, php-format
+msgid "for failing %s %s"
+msgstr ""
+
+#: modules/learndash.php:118 modules/wpcourseware.php:107
+#, php-format
+msgid "for getting %s perfect %s"
+msgstr ""
+
+#: modules/learndash.php:119 modules/learndash.php:120
+#: modules/wp-e-commerce.php:55 modules/wpcourseware.php:108
+#: modules/wpcourseware.php:109
+#, php-format
+msgid "for completing %s %s"
+msgstr ""
+
+#: modules/learndash.php:142 modules/wpcourseware.php:131
+#, php-format
+msgid "Pass %s %s"
+msgstr ""
+
+#: modules/learndash.php:143
+#, php-format
+msgid "Fail %s %s"
+msgstr ""
+
+#: modules/learndash.php:144 modules/wpcourseware.php:132
+#, php-format
+msgid "Get %s perfect %s"
+msgstr ""
+
+#: modules/learndash.php:145 modules/learndash.php:146
+#: modules/wp-e-commerce.php:72 modules/wpcourseware.php:133
+#: modules/wpcourseware.php:134
+#, php-format
+msgid "Complete %s %s"
+msgstr ""
+
+#: modules/learndash.php:158 modules/wpcourseware.php:146
+msgid "User Passes Quiz"
+msgstr ""
+
+#: modules/learndash.php:159 modules/wpcourseware.php:147
+msgid "Points awarded when a user passes a quiz."
+msgstr ""
+
+#: modules/learndash.php:163
+msgid "User Fails Quiz"
+msgstr ""
+
+#: modules/learndash.php:164
+msgid "Points awarded when a user fails a quiz."
+msgstr ""
+
+#: modules/learndash.php:168 modules/wpcourseware.php:151
+msgid "User Gets Perfect Quiz Score"
+msgstr ""
+
+#: modules/learndash.php:169 modules/wpcourseware.php:152
+#, php-format
+msgid "Points awarded when a user gets 100% on a quiz."
+msgstr ""
+
+#: modules/learndash.php:173
+msgid "User Completes Lesson"
+msgstr ""
+
+#: modules/learndash.php:174
+msgid "Points awarded when a user completes a lesson."
+msgstr ""
+
+#: modules/learndash.php:178 modules/wpcourseware.php:161
+msgid "Users Completes Course."
+msgstr ""
+
+#: modules/learndash.php:179 modules/wpcourseware.php:162
+msgid "Points awarded when a user completes a course."
+msgstr ""
+
+#: modules/learndash.php:190 modules/learndash.php:203
+#: modules/wpcourseware.php:173 modules/wpcourseware.php:185
+msgid "The user passes a quiz"
+msgstr ""
+
+#: modules/learndash.php:191 modules/learndash.php:204
+msgid "The user fails a quiz"
+msgstr ""
+
+#: modules/learndash.php:192 modules/learndash.php:205
+#: modules/wpcourseware.php:174 modules/wpcourseware.php:186
+#, php-format
+msgid "The user gets 100% on a quiz"
+msgstr ""
+
+#: modules/learndash.php:193 modules/learndash.php:206
+msgid "The user completes a lesson"
+msgstr ""
+
+#: modules/learndash.php:194 modules/learndash.php:207
+#: modules/wpcourseware.php:176 modules/wpcourseware.php:188
+msgid "The user completes a course"
+msgstr ""
+
+#: modules/myarcadecontest.php:43 modules/myarcadecontest.php:63
+msgid "contests"
+msgstr ""
+
+#: modules/myarcadecontest.php:44 modules/myarcadecontest.php:64
+msgid "prizes"
+msgstr ""
+
+#: modules/myarcadecontest.php:46 modules/myarcadecontest.php:66
+msgid "contest"
+msgstr ""
+
+#: modules/myarcadecontest.php:47 modules/myarcadecontest.php:67
+msgid "prize"
+msgstr ""
+
+#: modules/myarcadecontest.php:50 modules/myarcadeplugin.php:98
+#, php-format
+msgid "for playing %s %s"
+msgstr ""
+
+#: modules/myarcadecontest.php:51
+#, php-format
+msgid "for getting %s contest %s"
+msgstr ""
+
+#: modules/myarcadecontest.php:70 modules/myarcadeplugin.php:121
+#, php-format
+msgid "Play %s %s"
+msgstr ""
+
+#: modules/myarcadecontest.php:71
+#, php-format
+msgid "Get %s contest %s"
+msgstr ""
+
+#: modules/myarcadecontest.php:80
+msgid "MyArcadeContests Events"
+msgstr ""
+
+#: modules/myarcadecontest.php:81 modules/myarcadecontest.php:93
+msgid "The user wins a prize in a contest"
+msgstr ""
+
+#: modules/myarcadecontest.php:82 modules/myarcadecontest.php:94
+msgid "The user takes part in a contest"
+msgstr ""
+
+#: modules/myarcadecontest.php:83 modules/myarcadecontest.php:95
+msgid "The user plays a game as part of a contest"
+msgstr ""
+
+#: modules/myarcadeplugin.php:89 modules/myarcadeplugin.php:112
+msgid "highscores"
+msgstr ""
+
+#: modules/myarcadeplugin.php:91 modules/myarcadeplugin.php:114
+msgid "medals"
+msgstr ""
+
+#: modules/myarcadeplugin.php:93 modules/myarcadeplugin.php:116
+msgid "highscore"
+msgstr ""
+
+#: modules/myarcadeplugin.php:95 modules/myarcadeplugin.php:118
+msgid "medal"
+msgstr ""
+
+#: modules/myarcadeplugin.php:99 modules/myarcadeplugin.php:101
+#, php-format
+msgid "for getting %s %s"
+msgstr ""
+
+#: modules/myarcadeplugin.php:122 modules/myarcadeplugin.php:124
+#, php-format
+msgid "Get %s %s"
+msgstr ""
+
+#: modules/myarcadeplugin.php:136
+msgid "User Playing Games"
+msgstr ""
+
+#: modules/myarcadeplugin.php:137
+msgid "Points awarded when the user plays a game."
+msgstr ""
+
+#: modules/myarcadeplugin.php:141
+msgid "User Submitting Scores"
+msgstr ""
+
+#: modules/myarcadeplugin.php:142
+msgid "Points awarded when the user submits a score."
+msgstr ""
+
+#: modules/myarcadeplugin.php:146
+msgid "User Getting Highscores"
+msgstr ""
+
+#: modules/myarcadeplugin.php:147
+msgid "Points awarded when the user gets a highscore."
+msgstr ""
+
+#: modules/myarcadeplugin.php:151
+msgid "User Getting Medals"
+msgstr ""
+
+#: modules/myarcadeplugin.php:152
+msgid "Points awarded when the user gets a medal."
+msgstr ""
+
+#: modules/myarcadeplugin.php:162
+msgid "MyArcadePlugin Events"
+msgstr ""
+
+#: modules/myarcadeplugin.php:163 modules/myarcadeplugin.php:175
+msgid "The user plays a game"
+msgstr ""
+
+#: modules/myarcadeplugin.php:164 modules/myarcadeplugin.php:176
+msgid "The user submits a new score"
+msgstr ""
+
+#: modules/myarcadeplugin.php:165 modules/myarcadeplugin.php:177
+msgid "The user gets a new highscore"
+msgstr ""
+
+#: modules/myarcadeplugin.php:166 modules/myarcadeplugin.php:178
+msgid "The user gets a new medal"
+msgstr ""
+
+#: modules/simplepress.php:204 modules/simplepress.php:236
+msgid "forum posts"
+msgstr ""
+
+#: modules/simplepress.php:205 modules/simplepress.php:237
+msgid "forum topics"
+msgstr ""
+
+#: modules/simplepress.php:206 modules/simplepress.php:238
+msgid "ratings"
+msgstr ""
+
+#: modules/simplepress.php:207 modules/simplepress.php:239
+msgid "polls"
+msgstr ""
+
+#: modules/simplepress.php:209 modules/simplepress.php:241
+msgid "forum post"
+msgstr ""
+
+#: modules/simplepress.php:210 modules/simplepress.php:242
+msgid "forum topic"
+msgstr ""
+
+#: modules/simplepress.php:211 modules/simplepress.php:243
+msgid "rating"
+msgstr ""
+
+#: modules/simplepress.php:212 modules/simplepress.php:244
+msgid "poll"
+msgstr ""
+
+#: modules/simplepress.php:221
+#, php-format
+msgid "for getting %s %s on your %s"
+msgstr ""
+
+#: modules/simplepress.php:222
+#, php-format
+msgid "for losing %s %s on your %s"
+msgstr ""
+
+#: modules/simplepress.php:225
+#, php-format
+msgid "for getting %s votes on your %s"
+msgstr ""
+
+#: modules/simplepress.php:253
+#, php-format
+msgid "Get %s %s on your %s"
+msgstr ""
+
+#: modules/simplepress.php:254
+#, php-format
+msgid "Lose %s %s on your %s"
+msgstr ""
+
+#: modules/simplepress.php:257
+#, php-format
+msgid "Get %s votes on your %s"
+msgstr ""
+
+#: modules/simplepress.php:280
+msgid "User Adding Rating"
+msgstr ""
+
+#: modules/simplepress.php:285
+msgid "User's Post Rated"
+msgstr ""
+
+#: modules/simplepress.php:286
+msgid "Points awarded when a post by the user gets a rating."
+msgstr ""
+
+#: modules/simplepress.php:292
+msgid "User Adding Poll"
+msgstr ""
+
+#: modules/simplepress.php:293
+msgid "Points awarded when the user adds a poll."
+msgstr ""
+
+#: modules/simplepress.php:297
+msgid "User Adding Poll Voting"
+msgstr ""
+
+#: modules/simplepress.php:298
+msgid "Points awarded when the user votes on a poll."
+msgstr ""
+
+#: modules/simplepress.php:302
+msgid "User's Poll Voted"
+msgstr ""
+
+#: modules/simplepress.php:303
+msgid "Points awarded when a poll by the user gets a vote."
+msgstr ""
+
+#: modules/simplepress.php:315 modules/simplepress.php:334
+msgid "The user adds a forum post"
+msgstr ""
+
+#: modules/simplepress.php:316 modules/simplepress.php:335
+msgid "The user creates a forum topic"
+msgstr ""
+
+#: modules/simplepress.php:318 modules/simplepress.php:336
+msgid "The user rates a forum post"
+msgstr ""
+
+#: modules/simplepress.php:319 modules/simplepress.php:337
+msgid "The users forum post is rated by another user"
+msgstr ""
+
+#: modules/simplepress.php:322 modules/simplepress.php:338
+msgid "The user creates a forum poll"
+msgstr ""
+
+#: modules/simplepress.php:323 modules/simplepress.php:339
+msgid "The user votes in a forum poll"
+msgstr ""
+
+#: modules/simplepress.php:324 modules/simplepress.php:340
+msgid "The users forum poll receives a vote"
+msgstr ""
+
+#: modules/userpro.php:145
+msgid "for being unfollowed by a user"
+msgstr ""
+
+#: modules/userpro.php:146
+msgid "for unfollowing a user"
+msgstr ""
+
+#: modules/userpro.php:147
+msgid "for following a user"
+msgstr ""
+
+#: modules/userpro.php:148
+msgid "for being followed by a user"
+msgstr ""
+
+#: modules/userpro.php:149
+msgid "for becoming verified"
+msgstr ""
+
+#: modules/userpro.php:158
+msgid "Be unfollowed by a user"
+msgstr ""
+
+#: modules/userpro.php:159
+msgid "Unfollow a user"
+msgstr ""
+
+#: modules/userpro.php:160
+msgid "Follow a user"
+msgstr ""
+
+#: modules/userpro.php:161
+msgid "Be followed by a user"
+msgstr ""
+
+#: modules/userpro.php:162
+msgid "Become verified"
+msgstr ""
+
+#: modules/userpro.php:171
+msgid "UserPro"
+msgstr ""
+
+#: modules/userpro.php:174
+msgid "User Gets Followed"
+msgstr ""
+
+#: modules/userpro.php:175
+msgid "Points awarded when the user gets followed."
+msgstr ""
+
+#: modules/userpro.php:179
+msgid "User Follows"
+msgstr ""
+
+#: modules/userpro.php:180
+msgid "Points awarded when the user follows another user."
+msgstr ""
+
+#: modules/userpro.php:184
+msgid "User Verified"
+msgstr ""
+
+#: modules/userpro.php:185
+msgid "Points awarded when the user becomes verified."
+msgstr ""
+
+#: modules/userpro.php:195
+msgid "UserPro Events"
+msgstr ""
+
+#: modules/userpro.php:196 modules/userpro.php:210
+msgid "The user is followed by another"
+msgstr ""
+
+#: modules/userpro.php:197 modules/userpro.php:211
+msgid "The user follows another"
+msgstr ""
+
+#: modules/userpro.php:198 modules/userpro.php:208
+msgid "The user is unfollowed by another"
+msgstr ""
+
+#: modules/userpro.php:199 modules/userpro.php:209
+msgid "The user unfollows another"
+msgstr ""
+
+#: modules/userpro.php:200 modules/userpro.php:212
+msgid "The user becomes verified"
+msgstr ""
+
+#: modules/woocommerce-points-and-rewards.php:22
+#, php-format
+msgid "%s earned for getting the achievement: %s"
+msgstr ""
+
+#: modules/woocommerce-points-and-rewards.php:23
+#, php-format
+msgid "%s earned for admin adding the achievement: %s"
+msgstr ""
+
+#: modules/woocommerce-points-and-rewards.php:24
+#, php-format
+msgid "%s removed by admin removing the achievement: %s"
+msgstr ""
+
+#: modules/woocommerce-points-and-rewards.php:25
+#, php-format
+msgid "%s earned because an achievements points have been increased."
+msgstr ""
+
+#: modules/woocommerce-points-and-rewards.php:26
+#, php-format
+msgid "%s earned because an achievements points have been decreased."
+msgstr ""
+
+#: modules/woocommerce-points-and-rewards.php:29
+#, php-format
+msgid "%s earned for getting the quest: %s"
+msgstr ""
+
+#: modules/woocommerce-points-and-rewards.php:30
+#, php-format
+msgid "%s earned for admin adding the quest: %s"
+msgstr ""
+
+#: modules/woocommerce-points-and-rewards.php:31
+#, php-format
+msgid "%s removed by admin removing the quest: %s"
+msgstr ""
+
+#: modules/woocommerce-points-and-rewards.php:32
+#, php-format
+msgid "%s earned because an quest points have been increased."
+msgstr ""
+
+#: modules/woocommerce-points-and-rewards.php:33
+#, php-format
+msgid "%s earned because an quest points have been decreased."
+msgstr ""
+
+#: modules/woocommerce.php:84 modules/woocommerce.php:94
+msgid "The user spends at least..."
+msgstr ""
+
+#: modules/wordpress.php:336 modules/wordpress.php:361
+msgid "comments"
+msgstr ""
+
+#: modules/wordpress.php:338 modules/wordpress.php:363
+msgid "comment"
+msgstr ""
+
+#: modules/wordpress.php:341 wpachievements_achievments.php:507
+msgid "for registering with us"
+msgstr ""
+
+#: modules/wordpress.php:342
+msgid "for logging in"
+msgstr ""
+
+#: modules/wordpress.php:343
+#, php-format
+msgid "for visiting %s %s"
+msgstr ""
+
+#: modules/wordpress.php:344
+#, php-format
+msgid "for getting %s visits on your %s"
+msgstr ""
+
+#: modules/wordpress.php:346 modules/wordpress.php:350
+#, php-format
+msgid "for adding %s bad %s"
+msgstr ""
+
+#: modules/wordpress.php:347
+msgid "for a comment being removed"
+msgstr ""
+
+#: modules/wordpress.php:348
+#, php-format
+msgid "for removing a %s"
+msgstr ""
+
+#: modules/wordpress.php:366 wpachievements_quests.php:278
+msgid "Register with us"
+msgstr ""
+
+#: modules/wordpress.php:367
+msgid "Log in"
+msgstr ""
+
+#: modules/wordpress.php:368
+#, php-format
+msgid "Visit %s %s"
+msgstr ""
+
+#: modules/wordpress.php:369
+#, php-format
+msgid "Get %s visits on your %s"
+msgstr ""
+
+#: modules/wordpress.php:380
+msgid "Default WordPress"
+msgstr ""
+
+#: modules/wordpress.php:383
+msgid "User Logging in"
+msgstr ""
+
+#: modules/wordpress.php:384
+msgid "Points awarded when the user logs in."
+msgstr ""
+
+#: modules/wordpress.php:388
+msgid "User Adding Posts"
+msgstr ""
+
+#: modules/wordpress.php:389
+msgid "Points awarded when the user adds a post."
+msgstr ""
+
+#: modules/wordpress.php:393
+msgid "User Adding Comments"
+msgstr ""
+
+#: modules/wordpress.php:394
+msgid "Points awarded when the user adds a comment."
+msgstr ""
+
+#: modules/wordpress.php:398
+msgid "User Registering"
+msgstr ""
+
+#: modules/wordpress.php:399
+msgid "Points awarded when the user first registers."
+msgstr ""
+
+#: modules/wordpress.php:403
+msgid "User Visits Post"
+msgstr ""
+
+#: modules/wordpress.php:404
+msgid "Points awarded when the user views a post."
+msgstr ""
+
+#: modules/wordpress.php:408
+msgid "Users Post Visited"
+msgstr ""
+
+#: modules/wordpress.php:409
+msgid "Points awarded to user when a post they have added is visited."
+msgstr ""
+
+#: modules/wordpress.php:419
+msgid "Login Validation"
+msgstr ""
+
+#: modules/wordpress.php:422
+msgid "User Login Delay"
+msgstr ""
+
+#: modules/wordpress.php:423
+msgid ""
+"Enter the number of hours to delay logins being counted, this helps stop "
+"users getting points by logging in and out quickly."
+msgstr ""
+
+#: modules/wordpress.php:427
+msgid "Comment Validation"
+msgstr ""
+
+#: modules/wordpress.php:430 modules/wordpress.php:443
+msgid "Minimum Word Limit"
+msgstr ""
+
+#: modules/wordpress.php:431
+msgid ""
+"The minimum number of words required to gain comment based achievements."
+msgstr ""
+
+#: modules/wordpress.php:435 modules/wordpress.php:448
+msgid "Number of Points to Deduct"
+msgstr ""
+
+#: modules/wordpress.php:436 modules/wordpress.php:449
+msgid ""
+"The amount of points to deduct if the user has not met the minimum word "
+"limit."
+msgstr ""
+
+#: modules/wordpress.php:440
+msgid "Post Validation"
+msgstr ""
+
+#: modules/wordpress.php:444
+msgid "The minimum number of words required to gain post based achievements."
+msgstr ""
+
+#: modules/wordpress.php:453
+msgid "Post Visit Validation"
+msgstr ""
+
+#: modules/wordpress.php:456
+msgid "Users Post Visit Delay"
+msgstr ""
+
+#: modules/wordpress.php:457
+msgid ""
+"Enter the number of minutes to delay visits being counted, this helps stop "
+"users getting points by refreshing the page quickly."
+msgstr ""
+
+#: modules/wordpress.php:468
+msgid "Default WordPress Events"
+msgstr ""
+
+#: modules/wordpress.php:469 modules/wordpress.php:485
+msgid "The user first registers"
+msgstr ""
+
+#: modules/wordpress.php:470 modules/wordpress.php:486
+msgid "The user logins in"
+msgstr ""
+
+#: modules/wordpress.php:471 modules/wordpress.php:487
+#, php-format
+msgid "The user adds a %s"
+msgstr ""
+
+#: modules/wordpress.php:472 modules/wordpress.php:488
+msgid "The user adds a comment"
+msgstr ""
+
+#: modules/wordpress.php:474 modules/wordpress.php:489
+msgid "The user visits a post"
+msgstr ""
+
+#: modules/wordpress.php:475 modules/wordpress.php:490
+msgid "The users posts get visited"
+msgstr ""
+
+#: modules/wp-e-commerce.php:49 modules/wp-e-commerce.php:66
+msgid "checkouts"
+msgstr ""
+
+#: modules/wp-e-commerce.php:51 modules/wp-e-commerce.php:68
+msgid "checkout"
+msgstr ""
+
+#: modules/wp-e-commerce.php:54
+msgid "for setting up a PayPal Subscription"
+msgstr ""
+
+#: modules/wp-e-commerce.php:71
+msgid "Set up a PayPal Subscription"
+msgstr ""
+
+#: modules/wp-e-commerce.php:84
+msgid "User Making Purchases"
+msgstr ""
+
+#: modules/wp-e-commerce.php:85
+msgid "Points awarded when the user purchases goods."
+msgstr ""
+
+#: modules/wp-e-commerce.php:96 modules/wp-e-commerce.php:106
+msgid "The user sets up a PayPal Subscription"
+msgstr ""
+
+#: modules/wp-e-commerce.php:97 modules/wp-e-commerce.php:107
+msgid "The user completes checkout"
+msgstr ""
+
+#: modules/wp-favorite-posts.php:53
+#, php-format
+msgid "for favoriting %s %s"
+msgstr ""
+
+#: modules/wp-favorite-posts.php:54
+#, php-format
+msgid "for unfavoriting %s %s"
+msgstr ""
+
+#: modules/wp-favorite-posts.php:65
+#, php-format
+msgid "Favorite %s %s"
+msgstr ""
+
+#: modules/wp-favorite-posts.php:66
+#, php-format
+msgid "Unfavorite %s %s"
+msgstr ""
+
+#: modules/wp-favorite-posts.php:78
+msgid "User Adding Favorites"
+msgstr ""
+
+#: modules/wp-favorite-posts.php:79
+msgid "Points awarded when the user adds a favorite."
+msgstr ""
+
+#: modules/wp-favorite-posts.php:89
+msgid "WP Favorite Posts Events"
+msgstr ""
+
+#: modules/wp-favorite-posts.php:90 modules/wp-favorite-posts.php:100
+#, php-format
+msgid "The user add a %s to favorites"
+msgstr ""
+
+#: modules/wp-favorite-posts.php:91 modules/wp-favorite-posts.php:101
+#, php-format
+msgid "The user removes a %s from favorites"
+msgstr ""
+
+#: modules/wpcourseware.php:97 modules/wpcourseware.php:122
+msgid "modules"
+msgstr ""
+
+#: modules/wpcourseware.php:102 modules/wpcourseware.php:127
+msgid "module"
+msgstr ""
+
+#: modules/wpcourseware.php:156
+msgid "User Completes Module"
+msgstr ""
+
+#: modules/wpcourseware.php:157
+msgid "Points awarded when a user completes a module."
+msgstr ""
+
+#: modules/wpcourseware.php:175 modules/wpcourseware.php:187
+msgid "The user completes a module"
+msgstr ""
+
+#: social/facebook/setup.php:36 social/facebook/setup.php:45
+#: social/facebook/setup.php:65 social/facebook/setup.php:74
+#, php-format
+msgid "Come to %s and gain achievements of your own!!!"
+msgstr ""
+
+#: social/facebook/setup.php:116 social/facebook/setup.php:125
+#: social/facebook/setup.php:145 social/facebook/setup.php:154
+#, php-format
+msgid "Come to %s and gain %s of your own!!!"
+msgstr ""
+
+#: wpachievements.php:56
+msgid "Game"
+msgstr ""
+
+#: wpachievements.php:58
+msgid "Post"
+msgstr ""
+
+#: wpachievements.php:63 wpachievements_admin.php:1633
+#: wpachievements_shortcodes.php:274 wpachievements_shortcodes.php:331
+#: wpachievements_shortcodes.php:390 wpachievements_widget.php:71
+msgid "Achievements"
+msgstr ""
+
+#: wpachievements.php:64
+msgid "Achievement"
+msgstr ""
+
+#: wpachievements.php:65 wpachievements.php:66
+msgid "Add New Achievement"
+msgstr ""
+
+#: wpachievements.php:67
+msgid "Edit Achievement"
+msgstr ""
+
+#: wpachievements.php:68
+msgid "New Achievement"
+msgstr ""
+
+#: wpachievements.php:69
+msgid "View Achievement"
+msgstr ""
+
+#: wpachievements.php:70
+msgid "Search Achievements"
+msgstr ""
+
+#: wpachievements.php:71
+msgid "No Achievements Found"
+msgstr ""
+
+#: wpachievements.php:72
+msgid "No Achievements Found in Trash"
+msgstr ""
+
+#: wpachievements.php:88 wpachievements_admin.php:1678
+#: wpachievements_shortcodes.php:391
+msgid "Quests"
+msgstr ""
+
+#: wpachievements.php:89
+msgid "Quest"
+msgstr ""
+
+#: wpachievements.php:90 wpachievements.php:91
+msgid "Add New Quest"
+msgstr ""
+
+#: wpachievements.php:92
+msgid "Edit Quest"
+msgstr ""
+
+#: wpachievements.php:93
+msgid "New Quest"
+msgstr ""
+
+#: wpachievements.php:94
+msgid "View Quest"
+msgstr ""
+
+#: wpachievements.php:95
+msgid "Search Quests"
+msgstr ""
+
+#: wpachievements.php:96
+msgid "No Quests Found"
+msgstr ""
+
+#: wpachievements.php:97
+msgid "No Quests Found in Trash"
+msgstr ""
+
+#: wpachievements.php:119 wpachievements.php:122 wpachievements_admin.php:1447
+msgid "Newbie"
+msgstr ""
+
+#: wpachievements_achievements_page.php:46
+#, php-format
+msgid "Our %sQuests%s"
+msgstr ""
+
+#: wpachievements_achievements_page.php:81
+#: wpachievements_achievements_page.php:210
+#: wpachievements_achievements_page.php:237
+msgid "Unlocked"
+msgstr ""
+
+#: wpachievements_achievements_page.php:93
+#: wpachievements_achievements_page.php:222
+msgid "How do I get this?"
+msgstr ""
+
+#: wpachievements_achievements_page.php:173
+#, php-format
+msgid "Our %sAchievements%s"
+msgstr ""
+
+#: wpachievements_achievements_page.php:224
+msgid "Get this achievement for"
+msgstr ""
+
+#: wpachievements_achievements_page.php:226
+msgid "Get this achievement"
+msgstr ""
+
+#: wpachievements_achievments.php:392 wpachievements_achievments.php:417
+msgid "Recent Activity"
+msgstr ""
+
+#: wpachievements_achievments.php:439 wpachievements_achievments.php:447
+msgid "Point"
+msgstr ""
+
+#: wpachievements_achievments.php:441 wpachievements_achievments.php:449
+#: wpachievements_admin.php:1488 wpachievements_admin.php:1489
+#: wpachievements_admin.php:1613 wpachievements_shortcodes.php:388
+msgid "Points"
+msgstr ""
+
+#: wpachievements_achievments.php:503
+msgid "for being awesome!"
+msgstr ""
+
+#: wpachievements_achievments.php:505
+#, php-format
+msgid "for visiting us %s time(s)"
+msgstr ""
+
+#: wpachievements_achievments.php:506
+msgid "(Points adjusted by Admin)"
+msgstr ""
+
+#: wpachievements_achievments.php:508
+#, php-format
+msgid "for removing %s comment(s)"
+msgstr ""
+
+#: wpachievements_achievments.php:508
+#, php-format
+msgid "for adding %s comment(s)"
+msgstr ""
+
+#: wpachievements_achievments.php:510 wpachievements_achievments.php:513
+#, php-format
+msgid "for Achievement: %s"
+msgstr ""
+
+#: wpachievements_achievments.php:511
+msgid "(Admin Removed Achievement)"
+msgstr ""
+
+#: wpachievements_achievments.php:512
+msgid "(Admin Added Achievement)"
+msgstr ""
+
+#: wpachievements_achievments.php:514
+msgid "(Admin Modified Achievement)"
+msgstr ""
+
+#: wpachievements_achievments.php:515
+msgid "(Admin Removed Quest)"
+msgstr ""
+
+#: wpachievements_achievments.php:516
+msgid "(Admin Added Quest)"
+msgstr ""
+
+#: wpachievements_achievments.php:517
+msgid "(Admin Modified Quest)"
+msgstr ""
+
+#: wpachievements_achievments.php:518
+#, php-format
+msgid "for Quest: %s"
+msgstr ""
+
+#: wpachievements_achievments.php:519
+msgid "for logging in with Facebook"
+msgstr ""
+
+#: wpachievements_achievments.php:533
+msgid "Custom Achievement Events"
+msgstr ""
+
+#: wpachievements_achievments.php:534 wpachievements_quests.php:292
+msgid "Manually Awarded"
+msgstr ""
+
+#: wpachievements_achievments.php:536
+msgid "Custom Trigger"
+msgstr ""
+
+#: wpachievements_admin.php:111
+msgid "WPAchievements"
+msgstr ""
+
+#: wpachievements_admin.php:114 wpachievements_admin.php:1458
+msgid "WPAchievements - Ranks"
+msgstr ""
+
+#: wpachievements_admin.php:114
+msgid "Ranks"
+msgstr ""
+
+#: wpachievements_admin.php:117
+msgid "WPAchievements - Settings"
+msgstr ""
+
+#: wpachievements_admin.php:117
+msgid "Settings"
+msgstr ""
+
+#: wpachievements_admin.php:119
+msgid "WPAchievements - Shortcodes"
+msgstr ""
+
+#: wpachievements_admin.php:119
+msgid "Shortcodes"
+msgstr ""
+
+#: wpachievements_admin.php:121 wpachievements_admin.php:2093
+msgid "WPAchievements - Supported Plugins"
+msgstr ""
+
+#: wpachievements_admin.php:121
+msgid "Supported Plugins"
+msgstr ""
+
+#: wpachievements_admin.php:123
+msgid "WPAchievements - Latest Info"
+msgstr ""
+
+#: wpachievements_admin.php:123
+msgid "Latest Info"
+msgstr ""
+
+#: wpachievements_admin.php:125
+msgid "WPQuests"
+msgstr ""
+
+#: wpachievements_admin.php:155
+msgid "Achievement Text"
+msgstr ""
+
+#: wpachievements_admin.php:155
+msgid "This text is displayed when a user get the achievement."
+msgstr ""
+
+#: wpachievements_admin.php:160
+msgid "Achievement Details"
+msgstr ""
+
+#: wpachievements_admin.php:160
+msgid "Setup the detials of the achievement."
+msgstr ""
+
+#: wpachievements_admin.php:165 wpachievements_admin.php:452
+#: wpachievements_admin.php:868
+msgid "Achievement Image"
+msgstr ""
+
+#: wpachievements_admin.php:171
+msgid "Quest Text"
+msgstr ""
+
+#: wpachievements_admin.php:171
+msgid "This text is displayed when a user get the quest."
+msgstr ""
+
+#: wpachievements_admin.php:176
+msgid "Quest Details"
+msgstr ""
+
+#: wpachievements_admin.php:176
+msgid "Setup the detials of the quest."
+msgstr ""
+
+#: wpachievements_admin.php:181
+msgid "Quest Image"
+msgstr ""
+
+#: wpachievements_admin.php:225 wpachievements_admin.php:475
+msgid "Limit to Rank"
+msgstr ""
+
+#: wpachievements_admin.php:230 wpachievements_admin.php:269
+#: wpachievements_admin.php:299 wpachievements_admin.php:316
+#: wpachievements_admin.php:480 wpachievements_admin.php:546
+#: wpachievements_admin.php:565 wpachievements_admin.php:581
+msgid "Currently Selected"
+msgstr ""
+
+#: wpachievements_admin.php:235 wpachievements_admin.php:485
+msgid "Available Ranks"
+msgstr ""
+
+#: wpachievements_admin.php:236 wpachievements_admin.php:486
+msgid "Any Rank"
+msgstr ""
+
+#: wpachievements_admin.php:265
+msgid "Trigger Event"
+msgstr ""
+
+#: wpachievements_admin.php:273 wpachievements_admin.php:550
+#: wpachievements_admin.php:695 wpachievements_admin.php:771
+#: wpachievements_admin.php:890
+msgid "Select"
+msgstr ""
+
+#: wpachievements_admin.php:285
+msgid "Recurring Achievement"
+msgstr ""
+
+#: wpachievements_admin.php:296
+msgid "First Attempt Only"
+msgstr ""
+
+#: wpachievements_admin.php:303 wpachievements_admin.php:569
+#: wpachievements_admin.php:703 wpachievements_admin.php:779
+#: wpachievements_admin.php:898
+msgid "Disabled"
+msgstr ""
+
+#: wpachievements_admin.php:304 wpachievements_admin.php:570
+#: wpachievements_admin.php:704 wpachievements_admin.php:780
+#: wpachievements_admin.php:899
+msgid "Enabled"
+msgstr ""
+
+#: wpachievements_admin.php:312
+msgid "Limit to Blog"
+msgstr ""
+
+#: wpachievements_admin.php:339
+msgid "Group Title"
+msgstr ""
+
+#: wpachievements_admin.php:344
+msgid "Lesson ID"
+msgstr ""
+
+#: wpachievements_admin.php:347 wpachievements_admin.php:356
+msgid "Course ID"
+msgstr ""
+
+#: wpachievements_admin.php:350
+msgid "Quiz ID"
+msgstr ""
+
+#: wpachievements_admin.php:353
+msgid "Module ID"
+msgstr ""
+
+#: wpachievements_admin.php:360
+msgid "Form ID"
+msgstr ""
+
+#: wpachievements_admin.php:375
+msgid "Minimum Order Amount"
+msgstr ""
+
+#: wpachievements_admin.php:395
+msgid "Unique Trigger ID"
+msgstr ""
+
+#: wpachievements_admin.php:395
+msgid "(This must be completey unique and start with a letter!)"
+msgstr ""
+
+#: wpachievements_admin.php:399
+msgid "Get this achievement for..."
+msgstr ""
+
+#: wpachievements_admin.php:399
+msgid "(Example: \"adding a comment\")"
+msgstr ""
+
+#: wpachievements_admin.php:404 wpachievements_admin.php:750
+#: wpachievements_admin.php:826 wpachievements_admin.php:945
+msgid "Number of Occurrences"
+msgstr ""
+
+#: wpachievements_admin.php:412 wpachievements_admin.php:505
+msgid "Points Awarded"
+msgstr ""
+
+#: wpachievements_admin.php:421 wpachievements_admin.php:514
+msgid "WooCommerce Points"
+msgstr ""
+
+#: wpachievements_admin.php:444 wpachievements_admin.php:860
+#: wpachievements_admin.php:1476
+msgid "Upload Image"
+msgstr ""
+
+#: wpachievements_admin.php:542 wpachievements_admin.php:693
+#: wpachievements_admin.php:769 wpachievements_admin.php:888
+msgid "Trigger Event:"
+msgstr ""
+
+#: wpachievements_admin.php:543
+msgid "This cannot be changed once the achievement is created."
+msgstr ""
+
+#: wpachievements_admin.php:562 wpachievements_admin.php:701
+#: wpachievements_admin.php:777 wpachievements_admin.php:896
+msgid "First Attempt Only:"
+msgstr ""
+
+#: wpachievements_admin.php:577 wpachievements_admin.php:711
+#: wpachievements_admin.php:787 wpachievements_admin.php:906
+msgid "Limit to Blog:"
+msgstr ""
+
+#: wpachievements_admin.php:606 wpachievements_admin.php:727
+#: wpachievements_admin.php:803 wpachievements_admin.php:922
+msgid "Group Title: <small>(Optional)</small>"
+msgstr ""
+
+#: wpachievements_admin.php:611
+msgid "Lesson ID: <small>(Optional)</small>"
+msgstr ""
+
+#: wpachievements_admin.php:614 wpachievements_admin.php:623
+msgid "Course ID: <small>(Optional)</small>"
+msgstr ""
+
+#: wpachievements_admin.php:617
+msgid "Quiz ID: <small>(Optional)</small>"
+msgstr ""
+
+#: wpachievements_admin.php:620
+msgid "Module ID: <small>(Optional)</small>"
+msgstr ""
+
+#: wpachievements_admin.php:627 wpachievements_admin.php:731
+#: wpachievements_admin.php:807 wpachievements_admin.php:926
+msgid "Form ID: <small>(Optional)</small>"
+msgstr ""
+
+#: wpachievements_admin.php:649 wpachievements_admin.php:737
+#: wpachievements_admin.php:813 wpachievements_admin.php:932
+msgid "Minimum Order Amount: <small>(Optional)</small>"
+msgstr ""
+
+#: wpachievements_admin.php:667
+msgid "Number of Occurrences:"
+msgstr ""
+
+#: wpachievements_admin.php:680 wpachievements_admin.php:758
+#: wpachievements_admin.php:834 wpachievements_admin.php:953
+msgid "Remove Trigger"
+msgstr ""
+
+#: wpachievements_admin.php:840
+msgid "Add Another Trigger"
+msgstr ""
+
+#: wpachievements_admin.php:1459
+msgid "Setup ranks for your users"
+msgstr ""
+
+#: wpachievements_admin.php:1464 wpachievements_admin.php:1485
+msgid "Create New Rank"
+msgstr ""
+
+#: wpachievements_admin.php:1467
+msgid "Rank Name"
+msgstr ""
+
+#: wpachievements_admin.php:1471
+msgid "Points to reach this rank"
+msgstr ""
+
+#: wpachievements_admin.php:1475
+msgid "Rank Image"
+msgstr ""
+
+#: wpachievements_admin.php:1480
+msgid "Add Rank"
+msgstr ""
+
+#: wpachievements_admin.php:1481 wpachievements_admin.php:1506
+msgid "Cancel"
+msgstr ""
+
+#: wpachievements_admin.php:1488 wpachievements_admin.php:1489
+msgid "Image"
+msgstr ""
+
+#: wpachievements_admin.php:1488 wpachievements_admin.php:1489
+msgid "Action"
+msgstr ""
+
+#: wpachievements_admin.php:1501
+msgid "Edit"
+msgstr ""
+
+#: wpachievements_admin.php:1502
+msgid "Save"
+msgstr ""
+
+#: wpachievements_admin.php:1505
+msgid "Remove"
+msgstr ""
+
+#: wpachievements_admin.php:1609
+msgid "WPAchievements Management"
+msgstr ""
+
+#: wpachievements_admin.php:1644 wpachievements_admin.php:1689
+#, php-format
+msgid "%d Points and %d WooPoints"
+msgstr ""
+
+#: wpachievements_admin.php:1646 wpachievements_admin.php:1691
+#, php-format
+msgid "%d Points"
+msgstr ""
+
+#: wpachievements_admin.php:2135
+msgid ""
+"Important changes have been made to WPAchievements that could effect your "
+"website!!!"
+msgstr ""
+
+#: wpachievements_admin.php:3175
+msgid ""
+"A rank name is needed for users with 0 points!<br /><br />Click the edit "
+"link to edit this rank."
+msgstr ""
+
+#: wpachievements_admin.php:3187
+msgid "Rank removed"
+msgstr ""
+
+#: wpachievements_admin.php:3210
+msgid "Rank name or points cannot be empty!"
+msgstr ""
+
+#: wpachievements_admin.php:3212
+msgid "Please enter only positive integers for the points!"
+msgstr ""
+
+#: wpachievements_admin.php:3215
+msgid "Rank Updated"
+msgstr ""
+
+#: wpachievements_admin.php:3217
+msgid "Rank Added"
+msgstr ""
+
+#: wpachievements_admin.php:3251
+msgid "Enter Your WPAchievements Purchase Code:"
+msgstr ""
+
+#: wpachievements_quests.php:277
+#, php-format
+msgid "Visit us %s time(s)"
+msgstr ""
+
+#: wpachievements_quests.php:279
+#, php-format
+msgid "Add %s comment(s)"
+msgstr ""
+
+#: wpachievements_quests.php:281
+msgid "Log in with Facebook"
+msgstr ""
+
+#: wpachievements_quests.php:282
+msgid "Manually awarded by admin"
+msgstr ""
+
+#: wpachievements_ranks.php:254 wpachievements_ranks.php:264
+#, php-format
+msgid "%s until next rank"
+msgstr ""
+
+#: wpachievements_ranks.php:363 wpachievements_ranks.php:376
+#: wpachievements_ranks.php:388
+msgid "until next rank"
+msgstr ""
+
+#: wpachievements_ranks.php:393
+msgid "You are the highest rank!!"
+msgstr ""
+
+#: wpachievements_ranks.php:409
+msgid "User Ranks"
+msgstr ""
+
+#: wpachievements_ranks.php:410
+msgid "Select whether you want to use the user ranks system."
+msgstr ""
+
+#: wpachievements_ranks.php:417
+msgid "Rank Type"
+msgstr ""
+
+#: wpachievements_ranks.php:418
+msgid ""
+"Select whether you want to use points or achievements for the user ranks "
+"system."
+msgstr ""
+
+#: wpachievements_setup.php:346
+msgid "gained the achievement: "
+msgstr ""
+
+#: wpachievements_setup.php:347
+msgid "and got "
+msgstr ""
+
+#: wpachievements_setup.php:348 wpachievements_setup.php:373
+msgid "points "
+msgstr ""
+
+#: wpachievements_setup.php:367
+msgid "gained"
+msgstr ""
+
+#: wpachievements_setup.php:369
+msgid "lost"
+msgstr ""
+
+#: wpachievements_setup.php:372
+#, php-format
+msgid "%s "
+msgstr ""
+
+#: wpachievements_shortcodes.php:101 wpachievements_shortcodes.php:104
+msgid "No Achievements Yet!"
+msgstr ""
+
+#: wpachievements_shortcodes.php:138
+msgid "My Quests"
+msgstr ""
+
+#: wpachievements_shortcodes.php:181 wpachievements_shortcodes.php:184
+msgid "No Quests Yet!"
+msgstr ""
+
+#: wpachievements_shortcodes.php:213
+msgid "My Rank"
+msgstr ""
+
+#: wpachievements_shortcodes.php:272 wpachievements_shortcodes.php:329
+#: wpachievements_widget.php:69
+msgid "Total Points"
+msgstr ""
+
+#: wpachievements_shortcodes.php:384
+msgid "Position"
+msgstr ""
+
+#: wpachievements_shortcodes.php:386
+msgid "Avatar"
+msgstr ""
+
+#: wpachievements_shortcodes.php:387
+msgid "Username"
+msgstr ""
+
+#: wpachievements_shortcodes.php:439 wpachievements_shortcodes.php:468
+msgid "None"
+msgstr ""
+
+#: wpachievements_shortcodes.php:491
+msgid "Gain Achievement"
+msgstr ""
+
+#: wpachievements_template_locked.php:40 wpachievements_template_locked.php:49
+#, php-format
+msgid "To unlock this %s you must reach"
+msgstr ""
+
+#: wpachievements_template_locked.php:46
+msgid "Register to View"
+msgstr ""

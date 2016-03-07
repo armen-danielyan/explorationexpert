@@ -1,0 +1,70 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+
+#wpa_list_holder{width:100%;max-width:1000px;position:relative;overflow:hidden;margin:11px auto;background:#fff;}
+
+.wpa_list_hold{display:inline-block;width:472px;text-align:left;float:left;position:relative;}
+.wpa_list_hold#wpa_list_quests{margin-right:8px;}
+.wpa_list_hold .wpa_list_inner{width:472px;background:url('../img/bg_mesh.png') repeat top left;padding:32px 0 30px;-webkit-border-radius:6px !important;-webkit-border-top-left-radius:0 !important;-moz-border-radius:6px !important;-moz-border-radius-topleft:0 !important;border-radius:6px !important;border-top-left-radius:0 !important;border:1px solid #ccc;}
+.wpa_list_hold .wpa_list_inner_info{position:relative;font-family:arial;font-size:12px;font-weight:bold;color:#7c7c7c;-moz-border-radius:6px !important;border-radius:6px !important;-moz-border-radius:6px !important;padding-bottom:5px;background:#ffffff;width:412px;margin:0 auto !important;-webkit-box-shadow: 0px 0px 10px rgba(207, 206, 206, 1), inset 0px 0px 5px rgba(161, 161, 161, 0.7);-moz-box-shadow: 0px 0px 10px rgba(207, 206, 206, 1), inset 0px 0px 5px rgba(161, 161, 161, 0.7);box-shadow: 0px 0px 10px rgba(207, 206, 206, 1), inset 0px 0px 5px rgba(161, 161, 161, 0.7);}
+
+.wpa_list_hold .wpa_list_inner_info p{
+  line-height:16px !important;
+}
+
+.wpa_list_hold .wpa_heading_title{
+  background:url('../img/bg_mesh.png') repeat top left;
+  display:inline-block;
+  font-family: 'Open Sans', 'sans-serif';
+  font-size:28px;
+  font-weight:bold;
+  height:44px;
+  line-height:44px;
+  padding-left:12px;
+  padding-right:15px;
+  margin-bottom:-1px;
+  letter-spacing:-2px;
+  width:auto;
+  color:#4e4d4d;
+  -webkit-border-top-left-radius:6px;
+  -webkit-border-top-right-radius:6px;
+  -moz-border-radius-topleft:6px;
+  -moz-border-radius-topright:6px;
+  border-top-left-radius:6px;
+  border-top-right-radius:6px;
+  border:1px solid #ccc;
+  border-bottom:none;
+}
+.wpa_list_hold .wpa_heading_title span{
+  color:#3888a3;
+  text-shadow: -1px -1px 1px rgba(255, 255, 255, 1), inset -1px -2px 2px rgba(4, 4, 4, 0.3);
+}
+.wpa_list_hold .wpa_heading_title #quest_icon{background:url('../img/icon_quest.png') no-repeat top left;width:37px;height:29px;display:block;float:left;margin:6px 6px 0px 0px;}
+.wpa_list_hold .wpa_heading_title #achievement_icon{background:url('../img/icon_achievement.png') no-repeat bottom left;width:32px;height:31px;display:block;float:left;margin:10px 6px 0px 0px;}
+
+.wpa_list_hold img{background:none !important;background-color:transparent !important;border:none !important;float:none;display:block;margin:0 auto;}
+
+.wpa_list_hold #wpa_info,.wpa_list_hold #quest_info{text-align:left;min-height:211px;width:412px;background:url('../img/bg_blue_fade.png') no-repeat top left;}
+
+.wpa_list_hold .wpa_image_block{width:149px;float:left;margin-right:20px;}
+.wpa_list_hold .wpa_image_block img{margin:20px auto 0;max-width:100px !important;max-height:100px !important;}
+
+.wpa_list_hold .wpa_info_block{width:243px;float:right;}
+
+.wpa_list_hold #wpa_listing,.wpa_list_hold #quest_listing{background:url('../img/bg_gray_fade.png') no-repeat top left;padding:18px 0 13px 0;}
+.wpa_list_hold #wpa_listing a,.wpa_list_hold #quest_listing a{text-decoration:none !important;border:none !important;color:#21759b;}
+
+
+#wpa_info p.achieve_desc,#quest_info p.achieve_desc{margin-bottom:12px !important;padding:0;}
+#wpa_info h3,#quest_info h3{padding-top:15px !important;font-family:arial !important;font-size:16px !important;letter-spacing:0px !important;line-height:18px !important;margin-bottom:8px !important;margin-top:0px !important;clear:none !important;font-weight:bold !important;width:243px !important;float:left;color:#444444 !important;}
+#wpa_info h2,#quest_info h2{padding-top:15px !important;font-family:arial !important;font-size:30px !important;letter-spacing:-2px !important;line-height:33px !important;margin-bottom:8px !important;clear:none !important;font-weight:bold !important;width:243px !important;float:left;color:#444444 !important;}
+
+.wpa_list_hold #wpa_listing img,.wpa_list_hold #quest_listing img{padding:0;width:50px !important;height:50px !important;}
+.wpa_list_hold #wpa_listing a div,.wpa_list_hold #quest_listing a div{opacity:0.7;filter:alpha(opacity=70);display:inline-block;width:110px;height:95px !important;padding:10px 1px 0px 1px !important;text-align:center;overflow:hidden;}
+.wpa_list_hold #wpa_listing a:hover div,.wpa_list_hold #quest_listing a:hover div{opacity:1.0;filter:alpha(opacity=100);}
+.wpa_list_hold .acti_tab{color:#444444 !important;}
+.wpa_list_hold #wpa_listing .acti_tab div,.wpa_list_hold #quest_listing .acti_tab div{opacity:1.0 !important;filter:alpha(opacity=100) !important;background:#fff;-moz-border-radius:5px !important;border-radius:5px !important;border:1px solid #dadada !important;padding:9px 0px 0px 0px !important;height:94px !important;}
+.wpa_list_hold .acti_tab:hover{cursor:default;}
+.wpa_list_hold #wpa_listing a p,.wpa_list_hold #quest_listing a p{height:31px;overflow:hidden;}
+.wpa_list_hold .achive_tab{display:none;}
+
+#wpa_info .ach_point,#quest_info .ach_point{background:url('../img/bg_green_block.png') no-repeat top left;width:149px;height:34px;text-align:center;font-family: 'Open Sans', 'sans-serif';font-size:18px;font-weight:bold;line-height:34px;color:#49821d;text-shadow: 1px 0px 0px rgba(255, 255, 255, 0.6) !important;}

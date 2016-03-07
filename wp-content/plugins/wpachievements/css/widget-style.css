@@ -1,0 +1,45 @@
+/*************** Leaderboard ***************/
+.widget_wpachievements_widget .myus_user{width:100%;width:240px;height:50px;text-align:left;margin-bottom:5px;padding:0px 3px 0px 3px;background-color:#f4f4f4;border:2px solid #555;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;position:relative;}
+.widget_wpachievements_widget .myus_user img{border:none !important;padding:0 !important;background:none !important;background-color:transparent !important}
+.widget_wpachievements_widget .myus_user img.avatar{float:left;margin:5px 10px 0 4px;width:40px !important;height:40px !important;}
+.widget_wpachievements_widget .myus_user .myus_title{width:58%;margin-left:50px;color:#f4f4f4 !important;background-color:#444;font-size:14px;font-weight:bold;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;padding:0px 6px 0px 6px;height:20px;line-height:20px;margin-top:5px;}
+.widget_wpachievements_widget .myus_user .myus_title a{color:#FFF !important;}
+.widget_wpachievements_widget .myus_user .myus_title a:hover{color:#D53030 !important;}
+.widget_wpachievements_widget .myus_user .myus_count{margin-top:2px;color:#333 !important;font-weight:bold;font-size:11px;line-height:18px;}
+.widget_wpachievements_widget .myus_icon{position:absolute;top:12px;right:5px;margin:0;}
+.widget_wpachievements_widget .myus_num{font-size:10px;font-weight:bold;color:#fff;text-align:center;margin-top:7px;}
+.widget_wpachievements_widget .myus_num span{font-size:8px;}
+.widget_wpachievements_widget .widget-block-bottom{padding-top:18px;}
+.widget_wpachievements_widget .user_finish{clear:both !important;}
+
+.wpach_leaderboard .myus_icon{width:34px;height:35px;margin-top:-5px;}
+.wpach_leaderboard .myus_icon.trophy_gold{background:url('../img/trophy_gold.png') no-repeat top left;}
+.wpach_leaderboard .myus_icon.trophy_silver{background:url('../img/trophy_silver.png') no-repeat top left;}
+.wpach_leaderboard .myus_icon.trophy_bronze{background:url('../img/trophy_bronze.png') no-repeat top left;}
+.wpach_leaderboard .myus_icon.trophy_default{background:url('../img/trophy_default.png') no-repeat top left;}
+
+/*************** My Rank ***************/
+.pb_hold{position:relative;height:22px;width:230px;-moz-border-radius:6px !important;border-radius:6px !important;-moz-border-radius:6px !important;overflow:hidden;margin:0 auto 5px;}
+#pb_back,.pb_back_user_login{background:url('../img/bg_bar_back.png') repeat-x top left;width:230px;height:22px;}
+#content_locked #pb_back,#content_locked .pb_back_user_login{margin-right:7px !important}
+#pb_bar,.pb_bar_user_login{background:url('../img/bg_bar_front.png') repeat-x top left;width:0px;height:22px;position:absolute;left:0;top:0;}
+.usr_point_count{color:#fff;position:absolute;margin-top:-15px;font-size:12px;font-weight:bold;text-align:center;width:100%;line-height:10px;text-shadow:none !important;cursor:default !important;height:10px !important;}
+.user_current_rank,.li_points{width:230px;text-align:center;color:#ec4720;font-size:10px;font-weight:bold;position:relative;text-shadow:none !important;cursor:default !important;height:12px !important;line-height:12px !important;}
+span.li_points_alt_col{color:#2280b6 !important;}
+.user_current_rank{font-weight:bold;margin:-1px 0 8px 0;font-size:17px;color:#2280b6 !important;}
+#wp-admin-bar-custom_ranks_menu .custom_ranks_head .li_points{margin-top:-3px;}
+.user_login_points,#custom_ranks_head_points{margin-top:7px;background:#f4f4f4;width:240px;padding:13px 5px 10px 5px;-moz-border-radius:5px;border-radius:5px;position:relative;float:left;border:2px solid #555;}
+
+/*************** Content locked ***************/
+div#content_locked{padding-top:180px;min-height:300px;color:#333 !important;}
+#locked_icon_holder{width:250px;}
+#locked_icon_holder img{float:left;margin-top:0px;padding:0;background:none;background-color:transparent;border:none;}
+#content_locked #locked_register{display:block;background:url('../img/locked_btn.png') no-repeat top left;height:40px;width:178px;color:#2280b6;text-decoration:none;font-size:18px;font-weight:bold;padding-top:20px;margin-left:56px;}
+#content_locked #locked_register:hover{color:#F00;}
+
+/*************** Common ***************/
+.widget_wpachievements_achievements_widget img,.widget_wpachievements_quests_widget img,.bbp-reply-author .wpa_a_image{border:none !important;box-shadow:none !important;}
+.widget_wpachievements_achievements_widget img,.widget_wpachievements_quests_widget img{margin-left:5px;width:30px !important;height:30px !important;}
+.widget_wpachievements_achievements_widget img.first,.widget_wpachievements_quests_widget img.first{margin-left:0;}
+.widget_wpachievements_ranks_widget .rank_short_title,.widget_wpachievements_achievements_widget .ach_short_title,.widget_wpachievements_quests_widget .ach_short_title{display:none !important;}
+#wpa_bp_achievements_hold .clear, .widget_wpachievements_ranks_widget .clear{clear:both !important;}

@@ -1,0 +1,183 @@
+/*
+
+Theme Name: X &ndash; Child Theme
+Theme URI: http://theme.co/x/
+Author: Themeco
+Author URI: http://theme.co/
+Description: Make all of your modifications to X in this child theme.
+Version: 1.0.0
+Template: x
+
+*/
+.x-navbar .desktop .x-nav > li > a:hover > span, .x-navbar .desktop .x-nav > .x-active > a > span, .x-navbar .desktop .x-nav > .current-menu-item > a > span {
+    background-color: #049ACC;
+    color: #fff;
+}
+
+.buddypress .x-item-list-tabs-nav > ul > li > a span {
+    background-color: #5D0303 !important;
+    color: #fff !important;
+    top: -10px !important;
+    right: -6px !important;
+    padding: 5px 8px !important;
+    font-size: 14px !important;
+    border-radius: 50%;
+}
+
+.buddypress .x-item-list-tabs-nav > ul > li {
+    width: auto !important;
+}
+
+.buddypress .x-item-list-tabs-nav > ul > li > a, .buddypress .x-item-list-tabs-nav > ul > li > a:hover {
+    color: rgb(133, 133, 181) !important;
+}
+
+.buddypress .x-item-list-tabs-nav > ul > li.current a {
+    background-color: #8585B5 !important;
+    color: #fff !important;
+}
+
+article.format-standard .entry-wrap {
+    background-color: #fff !important;
+}
+
+.logged-in li.login {
+    display: none;
+}
+
+input.gsc-search-button-v2 {
+    width: 70px !important;
+    height: 28px !important;
+    margin-top: 0 !important;
+}
+
+.gsc-input-box {
+    height: auto !important;
+}
+
+.gsc-input-box table {
+    margin-bottom: 0;
+}
+
+.gsib_a {
+    padding: 4px 6px !important;
+}
+
+.gsc-input, .gsc-search-button {
+    border-top: none;
+}
+
+.gsc-selected-option-container {
+    box-sizing: content-box;
+}
+
+.buddypress .x-item-list-tabs-subnav > ul > li.current > a {
+    font-weight: bold;
+    color: #8585B5 !important;
+}
+
+.buddypress #item-header-avatar .activity {
+    background: rgba(255, 255, 255, 0.8);
+    font-weight: bold;
+    padding: 5px;
+}
+
+.buddypress #item-buttons a {
+    background-color: #049ACC !important;
+}
+
+.buddypress .button-nav a, .buddypress #item-buttons a {
+    font-size: 13px !important;
+}
+
+.buddypress .x-item-list-tabs-nav > ul {
+    margin: -1px -1px -1px 0 !important;
+}
+
+#buddypress form .editfield {
+    margin-bottom: 20px;
+}
+
+#buddypress form label, .radio .label {
+    font-weight: bold;
+    color: hsl(0, 93%, 19%);
+}
+
+#buddypress form .radio label {
+    font-weight: normal;
+}
+
+#buddypress form .radio .label {
+    margin-left: -18px;
+}
+
+.menu-item.search span {
+    text-indent: -9999px;
+    background-image: url(http://findicons.com/files/icons/1389/g5_system/32/toolbar_find.png);
+    background-repeat: no-repeat;
+}
+
+.x-navbar .desktop .x-nav > li.search > a:hover > span,
+.x-navbar .desktop .x-nav > .current-menu-item.search > a > span {
+    background-color: transparent;
+    border: none;
+}
+
+.home #buddypress form .editfield {
+    width: 100%;
+}
+
+.x-item-header-title > span, .user-nicename > span,
+.cupepoints_buddypress_rank.activity, #my_achievements_title {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 3px 8px;
+    border-radius: 25px;
+}
+
+#my_achievements_title {
+    display: inline-block;
+}
+
+.cupepoints_buddypress_rank.activity {
+    padding: 0px 5px;
+}
+
+.form-search, .widget_product_search form {
+    margin: 10px 0;
+}
+.x-nav-tabs-item a:before{
+    content: "";
+    display: block;
+    height: 150px;
+    width:150px;
+    background-size: cover;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.x-nav-tabs-item.buysell a:before{
+    background-image:url(http://www.explorationexpert.com/wp-content/uploads/2016/03/Рисунок1.png);
+}
+.x-nav-tabs-item.search a:before{
+    background-image:url(http://www.explorationexpert.com/wp-content/uploads/2016/03/Рисунок2.png);
+}
+.x-nav-tabs-item.consultants a:before{
+    background-image:url(http://www.explorationexpert.com/wp-content/uploads/2016/03/Рисунок3.png);
+}
+.x-nav-tabs-item.knowledge a:before{
+    background-image:url(http://www.explorationexpert.com/wp-content/uploads/2016/03/Рисунок4.png);
+}
+
+.x-nav-tabs.top>.active>a, .x-nav-tabs.top>.active>a:hover,
+.x-nav-tabs > li > a:hover, .x-nav-tabs > li > a{
+    border-bottom: 1px solid #fff;
+    font-size: 18px;
+    color: #999;
+    font-weight: bold;
+    padding: 20px;
+}
+.x-nav-tabs.top>.active>a, .x-nav-tabs.top>.active>a:hover{
+    color: #2b2b2b;
+}
+.page-id-273  input{max-width: 100%;}
+.page-id-273 .x-container,
+.page-id-271 .x-container{width: 100%!important;}

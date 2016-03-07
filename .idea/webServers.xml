@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5ae579cd-5133-43ae-be89-e31039f742da" name="explorationexpert" url="http://explorationexpert.com">
+        <fileTransfer host="explorationexpert.com" port="21" password="df89dfccdff2dff1dfdadff6dfebdf99dfcddf81dfd9df99dfe4df91df97" username="artem@explorationexpert.com">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

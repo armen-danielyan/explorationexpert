@@ -1,0 +1,3 @@
+.recent_point_activity strong, .recent_point_activity i, .custom_ranks_head strong{ color:inherit !important; }
+.recent_point_activity_head:hover, .custom_ranks_head:hover, .recent_point_activity_head .ab-item:focus, .custom_ranks_head .ab-item:focus, .recent_point_activity:hover, .recent_point_activity .ab-item:focus { background-color:transparent !important; }
+#achievements_list_hold a{ text-decoration: none !important; }
